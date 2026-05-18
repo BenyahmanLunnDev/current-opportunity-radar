@@ -1,0 +1,1125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Current Opportunity Radar</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f141a;
+      --panel: #131a21;
+      --panel-2: #171f27;
+      --line: #28333f;
+      --text: #f0e8dd;
+      --muted: #b8b0a7;
+      --brand: #d8a14a;
+      --green: #7ec36a;
+      --blue: #6da6e8;
+      --amber: #e4a23c;
+      --violet: #c08bf0;
+      --red: #ef695f;
+      --verified: #74c96f;
+      --partial: #efb24d;
+      --pending: #b892de;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.45;
+    }
+    .shell {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+    .shell > * {
+      min-width: 0;
+    }
+    nav {
+      border-right: 1px solid var(--line);
+      padding: 24px 18px;
+      background: #0d1217;
+    }
+    nav h1 {
+      margin: 0 0 28px;
+      font-size: 18px;
+      line-height: 1.2;
+      color: var(--text);
+    }
+    nav a {
+      display: block;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 10px 0;
+    }
+    nav a:first-of-type {
+      color: var(--brand);
+    }
+    main {
+      padding: 24px;
+    }
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 14px;
+      align-items: start;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+    .topbar h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .topbar p {
+      margin: 6px 0 0;
+      color: var(--muted);
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .filter-strip {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .filter-pill {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--muted);
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: var(--panel);
+    }
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .stat strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 26px;
+    }
+    .lanes {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .overview-foot {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .legend {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 14px;
+    }
+    .legend h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+    .legend p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .lane {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+    .lane header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .lane h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .lane-list {
+      display: grid;
+    }
+    .opportunity-card,
+    .pack-card {
+      padding: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .lane-list .opportunity-card:first-child {
+      border-top: 0;
+    }
+    .card-kicker {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    h3 {
+      margin: 0 0 6px;
+      font-size: 16px;
+    }
+    .meta {
+      margin: 0 0 8px;
+      color: var(--muted);
+    }
+    .source-kind {
+      margin: 0 0 8px;
+      color: var(--brand);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .pay {
+      margin: 0 0 8px;
+      color: var(--green);
+      font-weight: 700;
+    }
+    .why-now {
+      color: var(--brand);
+    }
+    .profile-variant {
+      color: var(--blue);
+      font-size: 13px;
+    }
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .card-actions a {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      padding: 8px 10px;
+      font-size: 13px;
+      background: var(--panel-2);
+    }
+    .family-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .family-chip {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 8px;
+      color: var(--blue);
+      font-size: 12px;
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+    .bucket-apply_first {
+      border-left: 3px solid var(--green);
+    }
+    .bucket-good_bet {
+      border-left: 3px solid var(--blue);
+    }
+    .bucket-worth_it_if_stretch {
+      border-left: 3px solid var(--violet);
+    }
+    .bucket-after_hours_cash {
+      border-left: 3px solid var(--amber);
+    }
+    .bucket-do_not_spend_time {
+      border-left: 3px solid var(--red);
+    }
+    .blockers {
+      margin-top: 10px;
+      color: #ffd6d1;
+    }
+    .panel-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .snapshot {
+      margin-top: 28px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 14px;
+    }
+    .snapshot h2,
+    .insight-panel h2,
+    .action-panel h2 {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+    .snapshot ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .snapshot li + li {
+      margin-top: 8px;
+    }
+    .right-rail {
+      display: grid;
+      gap: 12px;
+    }
+    .insight-panel,
+    .action-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 14px;
+    }
+    .insight-panel ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .insight-panel li + li {
+      border-top: 1px solid var(--line);
+      margin-top: 12px;
+      padding-top: 12px;
+    }
+    .insight-panel strong {
+      display: block;
+      font-size: 14px;
+    }
+    .insight-panel span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .insight-panel p,
+    .action-panel p {
+      margin: 6px 0 0;
+      color: var(--muted);
+    }
+    .action-panel strong {
+      color: var(--brand);
+    }
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 16px;
+      min-width: 0;
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .evidence-board {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .evidence-column h3 {
+      margin-bottom: 10px;
+    }
+    .packaging-queue {
+      border-top: 1px solid var(--line);
+      margin-top: 12px;
+      padding-top: 12px;
+    }
+    .packaging-queue h3 {
+      margin: 0 0 8px;
+    }
+    .evidence-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-2);
+      padding: 12px;
+      margin-bottom: 10px;
+    }
+    .evidence-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: start;
+    }
+    .evidence-head span {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+    .evidence-item p {
+      margin: 8px 0;
+    }
+    .evidence-item small {
+      color: var(--muted);
+    }
+    .evidence-verified .evidence-head span {
+      color: var(--verified);
+    }
+    .evidence-partial .evidence-head span {
+      color: var(--partial);
+    }
+    .evidence-pending .evidence-head span {
+      color: var(--pending);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .table-wrap {
+      overflow-x: auto;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .source-status {
+      display: inline-block;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+    }
+    .status-seed_only {
+      color: var(--amber);
+    }
+    .status-planned {
+      color: var(--muted);
+    }
+    .pack-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .family-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .pack-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .family-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 14px;
+    }
+    .fit-label {
+      color: var(--brand);
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+    .empty {
+      color: var(--muted);
+      padding: 14px;
+    }
+    @media (max-width: 900px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+      nav {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .stats,
+      .filter-strip,
+      .lanes,
+      .overview-foot,
+      .dashboard-grid,
+      .panel-grid,
+      .evidence-board,
+      .pack-grid,
+      .family-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <nav>
+      <h1>Current<br>Opportunity Radar</h1>
+      <a href="#overview">Overview</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#packs">Application Packs</a>
+      <a href="#sources">Sources</a>
+      
+    <section class="snapshot">
+      <div class="snapshot-head">
+        <h2>Profile Snapshot</h2>
+      </div>
+      <ul><li>Residential behavioral-health support work</li><li>Medication-room capability and active involvement</li><li>Prior ICU nursing background</li><li>Operations management background</li><li>Workflow automation agents</li><li>Ambient AI clinical-documentation research</li><li>Shipped technical projects</li></ul>
+    </section>
+    
+    </nav>
+    <main>
+      <section id="overview">
+        <div class="topbar">
+          <div>
+            <h2>Current Opportunity Radar</h2>
+            <p>Backed by real evidence, tuned for work that improves the monthly math now.</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><span>Current hourly pay</span><strong>$18.39</strong></div>
+          <div class="stat"><span>Replacement floor</span><strong>$24.00</strong></div>
+          <div class="stat"><span>Best live delta</span><strong>+$7.76/hr</strong></div>
+          <div class="stat"><span>Realistic now</span><strong>5</strong></div>
+          <div class="stat"><span>Verified evidence</span><strong>9</strong></div>
+          <div class="stat"><span>Blocked</span><strong>1</strong></div>
+        </div>
+        <div class="filter-strip">
+          <div class="filter-pill">Work Location · Any</div>
+          <div class="filter-pill">Minimum Pay · $24+</div>
+          <div class="filter-pill">Schedule Fit · Any</div>
+          <div class="filter-pill">Lane · Any</div>
+          <div class="filter-pill">Source Type · Any</div>
+        </div>
+        <div class="dashboard-grid">
+          <div>
+            <div class="lanes">
+    <section class="lane lane-escape_now">
+      <header>
+        <h2>Escape Now</h2>
+        <span>3</span>
+      </header>
+      <div class="lane-list">
+    <article class="opportunity-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3><a href="opportunities/tebra_implementation_specialist.html">Implementation Specialist</a></h3>
+      <p class="meta">Tebra · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">$26.15-$27.89/hr</p>
+      <div class="family-chips"><span class='family-chip'>Implementation / Onboarding</span></div>
+      <ul><li>Meets or exceeds the current replacement-job relief floor.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/tebra_implementation_specialist.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/tebra/jobs/4682518005">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="opportunity-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3><a href="opportunities/dentalxchange_implementation_specialist.html">Implementation Specialist</a></h3>
+      <p class="meta">DentalXChange · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">$24.00-$26.00/hr</p>
+      <div class="family-chips"><span class='family-chip'>Implementation / Onboarding</span></div>
+      <ul><li>Meets or exceeds the current replacement-job relief floor.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/dentalxchange_implementation_specialist.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/dentalxchange/jobs/4612630006">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="opportunity-card bucket-good_bet">
+      <div class="card-kicker">Good Bet</div>
+      <h3><a href="opportunities/nestveterinary_implementation_specialist.html">Implementation Specialist</a></h3>
+      <p class="meta">Nest Veterinary · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">Pay not posted</p>
+      <div class="family-chips"><span class='family-chip'>Implementation / Onboarding</span></div>
+      <ul><li>Compensation is not posted, so this cannot be prioritized as a replacement role yet.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/nestveterinary_implementation_specialist.html">Open packet</a>
+        <a href="https://jobs.ashbyhq.com/nestveterinary/25ccdded-6dd3-461c-9844-debab8fb48b5">Open live posting</a>
+      </div>
+    </article>
+    </div>
+    </section>
+    
+    <section class="lane lane-bridge_up">
+      <header>
+        <h2>Bridge Up</h2>
+        <span>2</span>
+      </header>
+      <div class="lane-list">
+    <article class="opportunity-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3><a href="opportunities/curai_clinical_operations_specialist.html">Clinical Operations Specialist</a></h3>
+      <p class="meta">Curai Health · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">$24.04-$28.85/hr</p>
+      <div class="family-chips"><span class='family-chip'>Clinical Operations</span><span class='family-chip'>Program / Services Coordination</span></div>
+      <ul><li>Meets or exceeds the current replacement-job relief floor.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/curai_clinical_operations_specialist.html">Open packet</a>
+        <a href="https://jobs.lever.co/curai/1e2296ed-fdf5-4d49-a839-e94554a28ccc">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="opportunity-card bucket-good_bet">
+      <div class="card-kicker">Good Bet</div>
+      <h3><a href="opportunities/lane_county_program_services_coordinator_1.html">Program Services Coordinator 1</a></h3>
+      <p class="meta">Lane County · Eugene, OR · Onsite</p>
+      <p class="source-kind">Reference page</p>
+      <p class="pay">$27.38-$36.60/hr</p>
+      <div class="family-chips"><span class='family-chip'>Program / Services Coordination</span><span class='family-chip'>Clinical Operations</span></div>
+      <ul><li>Meets or exceeds the current replacement-job relief floor.</li><li>Current evidence already supports a strong application story.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/lane_county_program_services_coordinator_1.html">Open packet</a>
+        <a href="https://www.governmentjobs.com/careers/lanecountyor/classspecs/992627">Open source page</a>
+      </div>
+    </article>
+    </div>
+    </section>
+    
+    <section class="lane lane-after_hours_cash">
+      <header>
+        <h2>After-Hours Cash</h2>
+        <span>2</span>
+      </header>
+      <div class="lane-list">
+    <article class="opportunity-card bucket-after_hours_cash">
+      <div class="card-kicker">After-Hours Cash</div>
+      <h3><a href="opportunities/humansignal_technical_ai_trainer.html">Technical AI Trainer</a></h3>
+      <p class="meta">HumanSignal · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">$22.00-$22.00/hr</p>
+      <div class="family-chips"><span class='family-chip'>AI / Documentation Workflow</span><span class='family-chip'>After-Hours Review / Contract Work</span></div>
+      <ul><li>Pays at or above the current hourly rate for additive work.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/humansignal_technical_ai_trainer.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/humansignal/jobs/5678246004">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="opportunity-card bucket-after_hours_cash">
+      <div class="card-kicker">After-Hours Cash</div>
+      <h3><a href="opportunities/agency_english_language_data_contributor.html">English Language Data Contributor (Multimodal) - Freelance AI Trainer Project</a></h3>
+      <p class="meta">Invisible Agency · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">Pay not posted</p>
+      <div class="family-chips"><span class='family-chip'>AI / Documentation Workflow</span></div>
+      <ul><li>Compensation is not posted, so this is useful only after quick pay verification.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/agency_english_language_data_contributor.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/agency/jobs/4697696101">Open live posting</a>
+      </div>
+    </article>
+    </div>
+    </section>
+    
+    <section class="lane lane-long_shot_upside">
+      <header>
+        <h2>Long-Shot Upside</h2>
+        <span>2</span>
+      </header>
+      <div class="lane-list">
+    <article class="opportunity-card bucket-worth_it_if_stretch">
+      <div class="card-kicker">Worth It If You Want The Stretch</div>
+      <h3><a href="opportunities/curai_provider_operations_associate.html">Provider Operations Associate</a></h3>
+      <p class="meta">Curai Health · United States · Remote</p>
+      <p class="source-kind">Live posting</p>
+      <p class="pay">$26.44-$28.85/hr</p>
+      <div class="family-chips"></div>
+      <ul><li>Meets or exceeds the current replacement-job relief floor.</li><li>Remote work protects the vehicle budget and dog-care constraint.</li></ul>
+      
+      <div class="card-actions">
+        <a href="opportunities/curai_provider_operations_associate.html">Open packet</a>
+        <a href="https://jobs.lever.co/curai/1d0e126e-dde6-42fd-93d1-dd70346a4733">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="opportunity-card bucket-do_not_spend_time">
+      <div class="card-kicker">Do Not Spend Time</div>
+      <h3><a href="opportunities/lane_county_mho_care_coordination_specialist_1.html">MHO Care Coordination Specialist 1</a></h3>
+      <p class="meta">Lane County · Eugene, OR · Onsite</p>
+      <p class="source-kind">Reference page</p>
+      <p class="pay">$33.37-$44.54/hr</p>
+      <div class="family-chips"></div>
+      <ul><li>Blocked by a hard requirement the candidate does not currently meet.</li></ul>
+      <div class='blockers'><strong>Blocked</strong><ul><li>Current posting family requires a master&#x27;s/QMHP path that is not currently documented.</li></ul></div>
+      <div class="card-actions">
+        <a href="opportunities/lane_county_mho_care_coordination_specialist_1.html">Open packet</a>
+        <a href="https://www.governmentjobs.com/careers/lanecountyor/classspecs/967370">Open source page</a>
+      </div>
+    </article>
+    </div>
+    </section>
+    </div>
+            <div class="overview-foot">
+              <div class="legend">
+                <h2>Evidence Strength</h2>
+                <p>Verified and partial evidence stay visually distinct so claims do not outrun proof.</p>
+              </div>
+              <div class="legend">
+                <h2>Time To Income</h2>
+                <p>Remote and high-fit roles stay favored when they improve both money and logistics.</p>
+              </div>
+              <div class="legend">
+                <h2>Current Posture</h2>
+                <p>Best bets first. Interesting-but-blocked roles remain visible without consuming effort.</p>
+              </div>
+            </div>
+          </div>
+          
+    <aside class="right-rail">
+      <section class="insight-panel">
+        <h2>Why These Rose Today</h2>
+        <ul>
+        <li>
+          <strong>Implementation Specialist</strong>
+          <span>Tebra</span>
+          <p>Strong remote fit protects commute cost and dog-care constraints.</p>
+        </li>
+        
+        <li>
+          <strong>Clinical Operations Specialist</strong>
+          <span>Curai Health</span>
+          <p>Strong remote fit protects commute cost and dog-care constraints.</p>
+        </li>
+        
+        <li>
+          <strong>Implementation Specialist</strong>
+          <span>DentalXChange</span>
+          <p>Strong remote fit protects commute cost and dog-care constraints.</p>
+        </li>
+        </ul>
+      </section>
+      <section class="action-panel">
+        <h2>Your Next Best Action</h2>
+        <strong>Apply to 2 apply-first roles this week.</strong>
+        <p>Implementation Specialist at Tebra is the strongest current opening in the seed set.</p>
+      </section>
+    </aside>
+    
+        </div>
+      </section>
+
+      <div class="panel-grid">
+        <section class="panel" id="evidence">
+          <h2>Evidence Dossier</h2>
+          <div class="evidence-board">
+            
+    <section class="evidence-column">
+      <h3>Verified Now</h3>
+      
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Current pay and full-time status</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents active regular full-time employment, start date 2025-12-23, and current pay of $18.39/hour.</p>
+          <small>Paylocity employment summary and pay rates · 2026-05-17</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Residential behavioral-health support work</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents direct residential support, transport, documentation, safety monitoring, and medication-dispersal documentation duties.</p>
+          <small>Residential Treatment Support Staff Role and Responsibilities · 2025-12-24</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>OneDrive duplicate-shortcut root-cause fix</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents accurate root-cause analysis, clear technical communication, and an implemented fix path.</p>
+          <small>Original IT request and direct IT reply · 2026-05-17</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Ambient AI clinical-documentation research</h3>
+            <span>Verified</span>
+          </div>
+          <p>Shows evaluation of clinical-documentation tooling, pricing, trial design, and business-case framing.</p>
+          <small>Ambient AI platform analysis and cost-benefit material · 2026-04-01</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Operations management background</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents prior operations-management experience.</p>
+          <small>LinkedIn export · 2026-05-16</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Prior ICU nursing background</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents prior ICU nursing background.</p>
+          <small>LinkedIn export · 2026-05-16</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Mental Health First Aid certificate</h3>
+            <span>Verified</span>
+          </div>
+          <p>Certificate forwarded and present in the evidence set.</p>
+          <small>Mental Health First Aid certificate · 2026-05-17</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>HSI pediatric first aid / CPR AED online portion</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents successful completion of the online portion and eligibility for hands-on skills practice and evaluation.</p>
+          <small>HSI Pediatric First Aid | CPR AED online completion · 2026-03-29</small>
+        </article>
+        
+        <article class="evidence-item evidence-verified">
+          <div class="evidence-head">
+            <h3>Shipped technical projects</h3>
+            <span>Verified</span>
+          </div>
+          <p>Documents shipped websites and software tools outside work.</p>
+          <small>Local project portfolio · 2026-05-16</small>
+        </article>
+        
+    </section>
+    
+            
+    <section class="evidence-column">
+      <h3>Partial / Strongly Supported</h3>
+      
+        <article class="evidence-item evidence-partial">
+          <div class="evidence-head">
+            <h3>Medication-room capability and active involvement</h3>
+            <span>Partial</span>
+          </div>
+          <p>Strongly supports medication-room capability and current involvement.</p>
+          <small>Medication Safety certificate, orientation docs, med-room agenda, group/team membership, email signature · 2026-04-23</small>
+        </article>
+        
+        <article class="evidence-item evidence-partial">
+          <div class="evidence-head">
+            <h3>Workflow automation agents</h3>
+            <span>Partial</span>
+          </div>
+          <p>Documents four recurring Copilot workflows that turn messy inputs into structured operational documents with privacy-conscious design.</p>
+          <small>Agent inventory documents · 2026-05-17</small>
+        </article>
+        
+        <article class="evidence-item evidence-partial">
+          <div class="evidence-head">
+            <h3>Class-design work</h3>
+            <span>Partial</span>
+          </div>
+          <p>Supports training-material design work, with stronger final artifacts still pending intake.</p>
+          <small>Existing class-design materials and edited handouts · 2026-05-17</small>
+        </article>
+        
+    </section>
+    
+            
+    <section class="evidence-column">
+      <h3>Pending</h3>
+      <p class='empty'>Nothing in this state yet.</p>
+    </section>
+    
+          </div>
+          
+    <section class="packaging-queue">
+      <h3>Evidence Packaging Queue</h3>
+      <ul><li>Willamette Family Men&#x27;s Residential-specific current role description if available.</li><li>Direct proof of recurring med-monitor assignment.</li><li>Synthetic fake-input / fake-output examples.</li><li>Actual agent instructions or best build-thread text.</li><li>Final hands-on completion certificate.</li><li>Final class materials used by coworker.</li></ul>
+    </section>
+    
+        </section>
+
+        <section class="panel" id="sources">
+          <h2>Source Health</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Source</th>
+                  <th>Type</th>
+                  <th>Mode</th>
+                  <th>Status</th>
+                <th>Live Jobs</th>
+                <th>Tracked Match</th>
+                <th>Targets</th>
+                <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody>
+    <tr>
+      <td>Tebra Greenhouse</td>
+      <td>Direct Employer</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>25</td>
+      <td>Implementation Specialist</td>
+      <td>Implementation / Onboarding</td>
+      <td>100</td>
+    </tr>
+    
+    <tr>
+      <td>Curai Lever</td>
+      <td>Official Ats</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>10</td>
+      <td>Clinical Operations Specialist</td>
+      <td>Clinical Operations</td>
+      <td>98</td>
+    </tr>
+    
+    <tr>
+      <td>Lane County GovernmentJobs</td>
+      <td>Public Sector</td>
+      <td>Planned Live</td>
+      <td><span class="source-status status-seed_only">Seed Only</span></td>
+      <td>0</td>
+      <td>—</td>
+      <td>Program / Services Coordination</td>
+      <td>94</td>
+    </tr>
+    
+    <tr>
+      <td>Oregon State Jobs</td>
+      <td>Public Sector</td>
+      <td>Planned Live</td>
+      <td><span class="source-status status-planned">Planned</span></td>
+      <td>0</td>
+      <td>—</td>
+      <td>Program / Services Coordination, Quality / Process / Documentation</td>
+      <td>90</td>
+    </tr>
+    
+    <tr>
+      <td>Local healthcare employers</td>
+      <td>Direct Employer</td>
+      <td>Planned Live</td>
+      <td><span class="source-status status-planned">Planned</span></td>
+      <td>0</td>
+      <td>—</td>
+      <td>Clinical Operations, Implementation / Onboarding, Quality / Process / Documentation</td>
+      <td>88</td>
+    </tr>
+    
+    <tr>
+      <td>DentalXChange Greenhouse</td>
+      <td>Direct Employer</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>3</td>
+      <td>Implementation Specialist</td>
+      <td>Implementation / Onboarding</td>
+      <td>97</td>
+    </tr>
+    
+    <tr>
+      <td>Lyra Health Lever</td>
+      <td>Official Ats</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>409</td>
+      <td>Program Specialist- Workforce Transformation</td>
+      <td>Clinical Operations, Quality / Process / Documentation</td>
+      <td>96</td>
+    </tr>
+    
+    <tr>
+      <td>HumanSignal Greenhouse</td>
+      <td>Official Ats</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>66</td>
+      <td>Technical AI Trainer</td>
+      <td>After-Hours Review / Contract Work, AI / Documentation Workflow</td>
+      <td>84</td>
+    </tr>
+    
+    <tr>
+      <td>Invisible Agency Greenhouse</td>
+      <td>Official Ats</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>806</td>
+      <td>English Language Data Contributor (Multimodal) – Freelance AI Trainer Project</td>
+      <td>After-Hours Review / Contract Work, AI / Documentation Workflow</td>
+      <td>82</td>
+    </tr>
+    
+    <tr>
+      <td>Nest Veterinary Ashby</td>
+      <td>Official Ats</td>
+      <td>Live</td>
+      <td><span class="source-status status-healthy">Healthy</span></td>
+      <td>3</td>
+      <td>Implementation Specialist</td>
+      <td>Implementation / Onboarding</td>
+      <td>95</td>
+    </tr>
+    </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel" id="packs">
+        <h2>Application Pack Readiness</h2>
+        <div class="pack-grid">
+    <article class="pack-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3>Implementation Specialist</h3>
+      <p class="meta">Tebra</p>
+      <p class="source-kind">Live posting</p>
+      <p>Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.</p>
+      <p>Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, AI tool evaluation, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.</p>
+      <p class="why-now">This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.</p>
+      <p class="profile-variant">Use profile variant: Escape Now</p>
+      <div><strong>Matched role families</strong><ul><li>Implementation / Onboarding</li></ul></div>
+      <div><strong>Supported claims</strong><ul><li><strong>Workflow Analysis</strong> · Verified</li><li><strong>Carelogic Documentation</strong> · Verified</li><li><strong>Ai Evaluation</strong> · Verified</li><li><strong>Shipped Web And Software Projects</strong> · Verified</li></ul></div>
+      
+      <div><strong>Resume angles</strong><ul><li>Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.</li><li>Clinical documentation fluency: translate frontline realities into consistent, usable records.</li><li>AI-enabled operations: evaluate tools, design prompts, and apply automation where it improves real work.</li></ul></div>
+      <div><strong>Ready-to-use bullets</strong><ul><li>Diagnosed workflow friction and converted it into clearer, more reliable operating processes.</li><li>Translated frontline care activity into consistent documentation and staff-facing records.</li><li>Evaluated AI-enabled documentation tools and designed practical workflows around real operational needs.</li></ul></div>
+      <div><strong>Interview stories</strong><ul><li>How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.</li><li>How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation.</li></ul></div>
+      <div class="card-actions">
+        <a href="opportunities/tebra_implementation_specialist.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/tebra/jobs/4682518005">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="pack-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3>Clinical Operations Specialist</h3>
+      <p class="meta">Curai Health</p>
+      <p class="source-kind">Live posting</p>
+      <p>Clinical Operations Specialist is a realistic upward bridge role that rewards the documented operations and workflow story.</p>
+      <p>Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, clinical documentation, and operations leadership. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.</p>
+      <p class="why-now">This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.</p>
+      <p class="profile-variant">Use profile variant: Bridge Up</p>
+      <div><strong>Matched role families</strong><ul><li>Clinical Operations</li><li>Program / Services Coordination</li><li>Quality / Process / Documentation</li></ul></div>
+      <div><strong>Supported claims</strong><ul><li><strong>Behavioral Health Support</strong> · Verified</li><li><strong>Workflow Analysis</strong> · Verified</li><li><strong>Carelogic Documentation</strong> · Verified</li><li><strong>Operations Management</strong> · Verified</li></ul></div>
+      
+      <div><strong>Resume angles</strong><ul><li>Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.</li><li>Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.</li><li>Clinical documentation fluency: translate frontline realities into consistent, usable records.</li></ul></div>
+      <div><strong>Ready-to-use bullets</strong><ul><li>Supported behavioral-health residential operations in a high-trust frontline environment.</li><li>Diagnosed workflow friction and converted it into clearer, more reliable operating processes.</li><li>Translated frontline care activity into consistent documentation and staff-facing records.</li></ul></div>
+      <div><strong>Interview stories</strong><ul><li>How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.</li><li>How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.</li></ul></div>
+      <div class="card-actions">
+        <a href="opportunities/curai_clinical_operations_specialist.html">Open packet</a>
+        <a href="https://jobs.lever.co/curai/1e2296ed-fdf5-4d49-a839-e94554a28ccc">Open live posting</a>
+      </div>
+    </article>
+    
+    <article class="pack-card bucket-apply_first">
+      <div class="card-kicker">Apply First</div>
+      <h3>Implementation Specialist</h3>
+      <p class="meta">DentalXChange</p>
+      <p class="source-kind">Live posting</p>
+      <p>Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.</p>
+      <p>Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, training-material design, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.</p>
+      <p class="why-now">This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.</p>
+      <p class="profile-variant">Use profile variant: Escape Now</p>
+      <div><strong>Matched role families</strong><ul><li>Implementation / Onboarding</li></ul></div>
+      <div><strong>Supported claims</strong><ul><li><strong>Workflow Analysis</strong> · Verified</li><li><strong>Carelogic Documentation</strong> · Verified</li><li><strong>Class Material Design</strong> · Partial</li><li><strong>Shipped Web And Software Projects</strong> · Verified</li></ul></div>
+      
+      <div><strong>Resume angles</strong><ul><li>Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.</li><li>Clinical documentation fluency: translate frontline realities into consistent, usable records.</li><li>Training support: create clear materials that help other staff teach and adopt process changes.</li></ul></div>
+      <div><strong>Ready-to-use bullets</strong><ul><li>Diagnosed workflow friction and converted it into clearer, more reliable operating processes.</li><li>Translated frontline care activity into consistent documentation and staff-facing records.</li><li>Created training materials that made recurring staff work easier to teach and execute.</li></ul></div>
+      <div><strong>Interview stories</strong><ul><li>How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.</li><li>How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation.</li></ul></div>
+      <div class="card-actions">
+        <a href="opportunities/dentalxchange_implementation_specialist.html">Open packet</a>
+        <a href="https://job-boards.greenhouse.io/dentalxchange/jobs/4612630006">Open live posting</a>
+      </div>
+    </article>
+    </div>
+      </section>
+
+      <section class="panel">
+        <h2>Target Role Families</h2>
+        <div class="family-grid">
+    <article class="family-card">
+      <div class="card-kicker">Escape Now</div>
+      <h3>Implementation / Onboarding</h3>
+      <p class="fit-label">High fit</p>
+      <p>Strong match for workflow diagnosis, documentation design, training support, and technical translation.</p>
+      <div><strong>Search terms</strong><ul><li>implementation specialist healthcare</li><li>onboarding specialist healthcare</li><li>implementation consultant EHR</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Require direct SaaS implementation years if stated as hard requirement.</li><li>Prioritize healthcare or clinical-workflow products over generic software.</li></ul></div>
+    </article>
+    
+    <article class="family-card">
+      <div class="card-kicker">Bridge Up</div>
+      <h3>Clinical Operations</h3>
+      <p class="fit-label">High fit</p>
+      <p>Strong match for behavioral-health operations, workflow monitoring, documentation, and cross-functional judgment.</p>
+      <div><strong>Search terms</strong><ul><li>clinical operations specialist</li><li>healthcare operations specialist</li><li>clinical workflow coordinator</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Separate genuine operations roles from licensed-care roles wearing similar titles.</li><li>Prefer roles where documentation and process judgment matter.</li></ul></div>
+    </article>
+    
+    <article class="family-card">
+      <div class="card-kicker">Bridge Up</div>
+      <h3>Program / Services Coordination</h3>
+      <p class="fit-label">Medium High fit</p>
+      <p>Good match for human-services work, class materials, and operational follow-through, especially when degree equivalency is allowed.</p>
+      <div><strong>Search terms</strong><ul><li>program services coordinator</li><li>human services coordinator</li><li>program coordinator behavioral health</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Commute economics matter more for local public-sector roles.</li><li>Read degree and QMHP requirements literally.</li></ul></div>
+    </article>
+    
+    <article class="family-card">
+      <div class="card-kicker">Bridge Up</div>
+      <h3>Quality / Process / Documentation</h3>
+      <p class="fit-label">High fit</p>
+      <p>Strong match for root-cause analysis, process cleanup, documentation reliability, and clinical-system awareness.</p>
+      <div><strong>Search terms</strong><ul><li>quality improvement coordinator healthcare</li><li>process improvement specialist healthcare</li><li>documentation quality specialist</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Some quality titles conceal RN-only requirements.</li><li>Prioritize operational improvement over compliance-only roles.</li></ul></div>
+    </article>
+    
+    <article class="family-card">
+      <div class="card-kicker">Long-Shot Upside</div>
+      <h3>AI / Documentation Workflow</h3>
+      <p class="fit-label">Medium High fit</p>
+      <p>Compelling upside lane built from ambient-AI evaluation, workflow-agent design, and privacy-conscious documentation work.</p>
+      <div><strong>Search terms</strong><ul><li>AI workflow specialist healthcare</li><li>clinical AI operations</li><li>documentation automation specialist healthcare</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Many roles will expect deeper formal product or engineering experience.</li><li>Keep these visible, but do not let them displace better near-term bets.</li></ul></div>
+    </article>
+    
+    <article class="family-card">
+      <div class="card-kicker">After-Hours Cash</div>
+      <h3>After-Hours Review / Contract Work</h3>
+      <p class="fit-label">Medium fit</p>
+      <p>Potential additive-income lane for chart review, record auditing, document cleanup, and practical automation work.</p>
+      <div><strong>Search terms</strong><ul><li>medical record reviewer remote part time</li><li>chart audit remote contract</li><li>workflow automation freelance</li></ul></div>
+      <div><strong>Watch for</strong><ul><li>Confirm schedule flexibility and pay floor before investing time.</li><li>Reject commission-only or misleading gig work unless the economics are unusually strong.</li></ul></div>
+    </article>
+    </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

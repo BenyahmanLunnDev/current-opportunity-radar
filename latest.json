@@ -1,0 +1,1714 @@
+{
+  "summary": {
+    "total": 9,
+    "apply_first": 3,
+    "good_bet": 2,
+    "worth_it_if_stretch": 1,
+    "after_hours_cash": 2,
+    "blocked": 1,
+    "verified_evidence": 9,
+    "partial_evidence": 3,
+    "pending_evidence": 0,
+    "source_count": 10,
+    "best_live_delta": 7.76,
+    "realistic_now": 5,
+    "profile_snapshot": [
+      "Residential behavioral-health support work",
+      "Medication-room capability and active involvement",
+      "Prior ICU nursing background",
+      "Operations management background",
+      "Workflow automation agents",
+      "Ambient AI clinical-documentation research",
+      "Shipped technical projects"
+    ],
+    "packaging_queue": [
+      "Willamette Family Men's Residential-specific current role description if available.",
+      "Direct proof of recurring med-monitor assignment.",
+      "Synthetic fake-input / fake-output examples.",
+      "Actual agent instructions or best build-thread text.",
+      "Final hands-on completion certificate.",
+      "Final class materials used by coworker."
+    ],
+    "why_these_rose": [
+      {
+        "title": "Implementation Specialist",
+        "company": "Tebra",
+        "reason": "Strong remote fit protects commute cost and dog-care constraints."
+      },
+      {
+        "title": "Clinical Operations Specialist",
+        "company": "Curai Health",
+        "reason": "Strong remote fit protects commute cost and dog-care constraints."
+      },
+      {
+        "title": "Implementation Specialist",
+        "company": "DentalXChange",
+        "reason": "Strong remote fit protects commute cost and dog-care constraints."
+      }
+    ],
+    "next_best_action": {
+      "headline": "Apply to 2 apply-first roles this week.",
+      "detail": "Implementation Specialist at Tebra is the strongest current opening in the seed set."
+    }
+  },
+  "opportunities": [
+    {
+      "opportunity_id": "tebra_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "Tebra",
+      "detail_url": "https://job-boards.greenhouse.io/tebra/jobs/4682518005",
+      "source_name": "Tebra Greenhouse",
+      "source_page_kind": "live_posting",
+      "lane": "escape_now",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": 26.15,
+      "pay_max_hourly": 27.89,
+      "compensation_note": "",
+      "requirements": [
+        "1-2 years customer-facing implementation experience preferred",
+        "Strong communication and problem-solving"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "workflow_analysis",
+        "carelogic_documentation",
+        "ai_evaluation",
+        "shipped_web_and_software_projects"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 4,
+        "commute_fit": 5,
+        "portfolio_leverage": 5,
+        "time_to_income": 3,
+        "application_efficiency": 4
+      },
+      "notes": [
+        "Strong current-fit healthcare SaaS replacement target.",
+        "Application should translate internal workflow automation into implementation language."
+      ],
+      "seed_only": true,
+      "score": 170,
+      "bucket": "apply_first",
+      "reasons": [
+        "Meets or exceeds the current replacement-job relief floor.",
+        "Remote work protects the vehicle budget and dog-care constraint.",
+        "Current evidence already supports a strong application story.",
+        "Existing shipped work can strengthen the application."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 7.76,
+      "pay_delta_from_replacement_floor": 2.15
+    },
+    {
+      "opportunity_id": "curai_clinical_operations_specialist",
+      "title": "Clinical Operations Specialist",
+      "company": "Curai Health",
+      "detail_url": "https://jobs.lever.co/curai/1e2296ed-fdf5-4d49-a839-e94554a28ccc",
+      "source_name": "Curai Lever",
+      "source_page_kind": "live_posting",
+      "lane": "bridge_up",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": 24.04,
+      "pay_max_hourly": 28.85,
+      "compensation_note": "",
+      "requirements": [
+        "4 years healthcare operations, clinical administration, or similar",
+        "Workflow and service-level monitoring"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "behavioral_health_support",
+        "workflow_analysis",
+        "carelogic_documentation",
+        "operations_management"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 4,
+        "commute_fit": 5,
+        "portfolio_leverage": 4,
+        "time_to_income": 3,
+        "application_efficiency": 4
+      },
+      "notes": [
+        "Especially strong bridge role because it rewards operational judgment more than a narrow credential label.",
+        "Resume should foreground clinic operations, bottleneck detection, documentation, and escalation judgment."
+      ],
+      "seed_only": true,
+      "score": 165,
+      "bucket": "apply_first",
+      "reasons": [
+        "Meets or exceeds the current replacement-job relief floor.",
+        "Remote work protects the vehicle budget and dog-care constraint.",
+        "Current evidence already supports a strong application story.",
+        "Existing shipped work can strengthen the application."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 5.65,
+      "pay_delta_from_replacement_floor": 0.04
+    },
+    {
+      "opportunity_id": "dentalxchange_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "DentalXChange",
+      "detail_url": "https://job-boards.greenhouse.io/dentalxchange/jobs/4612630006",
+      "source_name": "DentalXChange Greenhouse",
+      "source_page_kind": "live_posting",
+      "lane": "escape_now",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": 24.0,
+      "pay_max_hourly": 26.0,
+      "compensation_note": "",
+      "requirements": [
+        "Customer-facing implementation support",
+        "Healthcare implementation or adjacent workflow experience"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "workflow_analysis",
+        "carelogic_documentation",
+        "class_material_design",
+        "shipped_web_and_software_projects"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 4,
+        "commute_fit": 5,
+        "portfolio_leverage": 4,
+        "time_to_income": 3,
+        "application_efficiency": 4
+      },
+      "notes": [
+        "Strong current-fit healthcare implementation role with posted remote range.",
+        "Training-material and workflow evidence should be foregrounded."
+      ],
+      "seed_only": true,
+      "score": 165,
+      "bucket": "apply_first",
+      "reasons": [
+        "Meets or exceeds the current replacement-job relief floor.",
+        "Remote work protects the vehicle budget and dog-care constraint.",
+        "Current evidence already supports a strong application story.",
+        "Existing shipped work can strengthen the application."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 5.61,
+      "pay_delta_from_replacement_floor": 0.0
+    },
+    {
+      "opportunity_id": "humansignal_technical_ai_trainer",
+      "title": "Technical AI Trainer",
+      "company": "HumanSignal",
+      "detail_url": "https://job-boards.greenhouse.io/humansignal/jobs/5678246004",
+      "source_name": "HumanSignal Greenhouse",
+      "source_page_kind": "live_posting",
+      "lane": "after_hours_cash",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": 22.0,
+      "pay_max_hourly": 22.0,
+      "compensation_note": "",
+      "requirements": [
+        "Remote contract work",
+        "Technical fluency and comfort evaluating AI outputs"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "ai_evaluation",
+        "workflow_analysis",
+        "shipped_web_and_software_projects"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 5,
+        "commute_fit": 5,
+        "portfolio_leverage": 4,
+        "time_to_income": 4,
+        "application_efficiency": 4
+      },
+      "notes": [
+        "Useful additive-income role because it is remote, contract-based, and directly uses current AI evaluation strengths.",
+        "Not a replacement-role target because the posted rate does not beat the replacement floor."
+      ],
+      "seed_only": true,
+      "score": 164,
+      "bucket": "after_hours_cash",
+      "reasons": [
+        "Pays at or above the current hourly rate for additive work.",
+        "Remote work protects the vehicle budget and dog-care constraint.",
+        "Current evidence already supports a strong application story.",
+        "Existing shipped work can strengthen the application."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 3.61,
+      "pay_delta_from_replacement_floor": -2.0
+    },
+    {
+      "opportunity_id": "curai_provider_operations_associate",
+      "title": "Provider Operations Associate",
+      "company": "Curai Health",
+      "detail_url": "https://jobs.lever.co/curai/1d0e126e-dde6-42fd-93d1-dd70346a4733",
+      "source_name": "Curai Lever",
+      "source_page_kind": "live_posting",
+      "lane": "long_shot_upside",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": 26.44,
+      "pay_max_hourly": 28.85,
+      "compensation_note": "",
+      "requirements": [
+        "5+ years provider operations, credentialing, licensing, or healthcare administration",
+        "Provider lifecycle and regulatory workflow exposure"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "workflow_analysis",
+        "operations_management",
+        "carelogic_documentation"
+      ],
+      "ratings": {
+        "evidence_match": 3,
+        "schedule_fit": 4,
+        "commute_fit": 5,
+        "portfolio_leverage": 3,
+        "time_to_income": 3,
+        "application_efficiency": 2
+      },
+      "notes": [
+        "Interesting but stretchier than Clinical Operations Specialist because provider-operations specifics are not yet directly documented.",
+        "Keep visible without allowing it to outrank stronger near-term fits."
+      ],
+      "seed_only": true,
+      "score": 146,
+      "bucket": "worth_it_if_stretch",
+      "reasons": [
+        "Meets or exceeds the current replacement-job relief floor.",
+        "Remote work protects the vehicle budget and dog-care constraint."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 8.05,
+      "pay_delta_from_replacement_floor": 2.44
+    },
+    {
+      "opportunity_id": "nestveterinary_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "Nest Veterinary",
+      "detail_url": "https://jobs.ashbyhq.com/nestveterinary/25ccdded-6dd3-461c-9844-debab8fb48b5",
+      "source_name": "Nest Veterinary Ashby",
+      "source_page_kind": "live_posting",
+      "lane": "escape_now",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": null,
+      "pay_max_hourly": null,
+      "compensation_note": "Pay not posted",
+      "requirements": [
+        "2+ years in SaaS implementation, operations, or project management",
+        "Training or enablement experience with client-facing teams"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "workflow_analysis",
+        "class_material_design",
+        "operations_management",
+        "shipped_web_and_software_projects"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 4,
+        "commute_fit": 5,
+        "portfolio_leverage": 4,
+        "time_to_income": 3,
+        "application_efficiency": 4
+      },
+      "notes": [
+        "Interesting implementation fit because the role explicitly values training, launches, and process ownership.",
+        "Compensation is not posted, so this should not outrank posted-pay apply-first roles yet."
+      ],
+      "seed_only": true,
+      "score": 143,
+      "bucket": "good_bet",
+      "reasons": [
+        "Compensation is not posted, so this cannot be prioritized as a replacement role yet.",
+        "Remote work protects the vehicle budget and dog-care constraint.",
+        "Current evidence already supports a strong application story.",
+        "Existing shipped work can strengthen the application."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": null,
+      "pay_delta_from_replacement_floor": null
+    },
+    {
+      "opportunity_id": "agency_english_language_data_contributor",
+      "title": "English Language Data Contributor (Multimodal) - Freelance AI Trainer Project",
+      "company": "Invisible Agency",
+      "detail_url": "https://job-boards.greenhouse.io/agency/jobs/4697696101",
+      "source_name": "Invisible Agency Greenhouse",
+      "source_page_kind": "live_posting",
+      "lane": "after_hours_cash",
+      "work_mode": "remote",
+      "location": "United States",
+      "pay_min_hourly": null,
+      "pay_max_hourly": null,
+      "compensation_note": "Pay not posted",
+      "requirements": [
+        "Remote freelance project work",
+        "Strong language judgment and careful review"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "ai_evaluation",
+        "workflow_analysis",
+        "operations_management"
+      ],
+      "ratings": {
+        "evidence_match": 3,
+        "schedule_fit": 5,
+        "commute_fit": 5,
+        "portfolio_leverage": 3,
+        "time_to_income": 4,
+        "application_efficiency": 3
+      },
+      "notes": [
+        "Potential additive-income lead because it is remote and freelance, but compensation must be verified quickly.",
+        "Useful as a lower-friction side-income lead rather than a primary-career bet."
+      ],
+      "seed_only": true,
+      "score": 140,
+      "bucket": "after_hours_cash",
+      "reasons": [
+        "Compensation is not posted, so this is useful only after quick pay verification.",
+        "Remote work protects the vehicle budget and dog-care constraint."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": null,
+      "pay_delta_from_replacement_floor": null
+    },
+    {
+      "opportunity_id": "lane_county_program_services_coordinator_1",
+      "title": "Program Services Coordinator 1",
+      "company": "Lane County",
+      "detail_url": "https://www.governmentjobs.com/careers/lanecountyor/classspecs/992627",
+      "source_name": "Lane County Class Specifications",
+      "source_page_kind": "reference_page",
+      "lane": "bridge_up",
+      "work_mode": "onsite",
+      "location": "Eugene, OR",
+      "pay_min_hourly": 27.38,
+      "pay_max_hourly": 36.6,
+      "compensation_note": "",
+      "requirements": [
+        "Bachelor's degree or equivalent combination of experience and training",
+        "Two years increasingly responsible human-services planning, development, and evaluation"
+      ],
+      "hard_blockers": [],
+      "evidence_hooks": [
+        "behavioral_health_support",
+        "workflow_analysis",
+        "class_material_design",
+        "operations_management"
+      ],
+      "ratings": {
+        "evidence_match": 4,
+        "schedule_fit": 3,
+        "commute_fit": 2,
+        "portfolio_leverage": 3,
+        "time_to_income": 3,
+        "application_efficiency": 3
+      },
+      "notes": [
+        "Worth watching for live openings because the class spec allows equivalent combinations of training and experience.",
+        "The commute can still make sense, but local-government application friction is higher than for some remote roles."
+      ],
+      "seed_only": true,
+      "score": 121,
+      "bucket": "good_bet",
+      "reasons": [
+        "Meets or exceeds the current replacement-job relief floor.",
+        "Current evidence already supports a strong application story.",
+        "Commute economics are weak and should be modeled carefully."
+      ],
+      "blockers": [],
+      "pay_delta_from_current": 8.99,
+      "pay_delta_from_replacement_floor": 3.38
+    },
+    {
+      "opportunity_id": "lane_county_mho_care_coordination_specialist_1",
+      "title": "MHO Care Coordination Specialist 1",
+      "company": "Lane County",
+      "detail_url": "https://www.governmentjobs.com/careers/lanecountyor/classspecs/967370",
+      "source_name": "Lane County Class Specifications",
+      "source_page_kind": "reference_page",
+      "lane": "long_shot_upside",
+      "work_mode": "onsite",
+      "location": "Eugene, OR",
+      "pay_min_hourly": 33.37,
+      "pay_max_hourly": 44.54,
+      "compensation_note": "",
+      "requirements": [
+        "Master's degree or QMHP-aligned path"
+      ],
+      "hard_blockers": [
+        "Current posting family requires a master's/QMHP path that is not currently documented."
+      ],
+      "evidence_hooks": [
+        "behavioral_health_support",
+        "icu_nursing_history"
+      ],
+      "ratings": {
+        "evidence_match": 3,
+        "schedule_fit": 3,
+        "commute_fit": 2,
+        "portfolio_leverage": 2,
+        "time_to_income": 2,
+        "application_efficiency": 1
+      },
+      "notes": [
+        "Useful as a comparator, but not a good use of near-term application time."
+      ],
+      "seed_only": true,
+      "score": 0,
+      "bucket": "do_not_spend_time",
+      "reasons": [
+        "Blocked by a hard requirement the candidate does not currently meet."
+      ],
+      "blockers": [
+        "Current posting family requires a master's/QMHP path that is not currently documented."
+      ],
+      "pay_delta_from_current": 14.98,
+      "pay_delta_from_replacement_floor": 9.37
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "paylocity_current_pay",
+      "label": "Current pay and full-time status",
+      "state": "verified",
+      "source_type": "screenshot",
+      "source_name": "Paylocity employment summary and pay rates",
+      "source_date": "2026-05-17",
+      "summary": "Documents active regular full-time employment, start date 2025-12-23, and current pay of $18.39/hour.",
+      "claim_tags": [],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "behavioral_health_support_role",
+      "label": "Residential behavioral-health support work",
+      "state": "verified",
+      "source_type": "role_document",
+      "source_name": "Residential Treatment Support Staff Role and Responsibilities",
+      "source_date": "2025-12-24",
+      "summary": "Documents direct residential support, transport, documentation, safety monitoring, and medication-dispersal documentation duties.",
+      "claim_tags": [
+        "behavioral_health_support",
+        "carelogic_documentation"
+      ],
+      "notes": [
+        "Current document is labeled Green Acres Residential rather than Carlton House / Men's Residential."
+      ],
+      "next_needed": [
+        "Willamette Family Men's Residential-specific current role description if available."
+      ]
+    },
+    {
+      "evidence_id": "med_room_bundle",
+      "label": "Medication-room capability and active involvement",
+      "state": "partial",
+      "source_type": "bundle",
+      "source_name": "Medication Safety certificate, orientation docs, med-room agenda, group/team membership, email signature",
+      "source_date": "2026-04-23",
+      "summary": "Strongly supports medication-room capability and current involvement.",
+      "claim_tags": [
+        "medication_room_involvement"
+      ],
+      "notes": [
+        "Current proof is strong for training and involvement, but less clean for recurring assignment."
+      ],
+      "next_needed": [
+        "Direct proof of recurring med-monitor assignment."
+      ]
+    },
+    {
+      "evidence_id": "workflow_agent_inventories",
+      "label": "Workflow automation agents",
+      "state": "partial",
+      "source_type": "documents",
+      "source_name": "Agent inventory documents",
+      "source_date": "2026-05-17",
+      "summary": "Documents four recurring Copilot workflows that turn messy inputs into structured operational documents with privacy-conscious design.",
+      "claim_tags": [
+        "workflow_analysis",
+        "ai_evaluation"
+      ],
+      "notes": [
+        "Inventories are strong enough for internal scoring now."
+      ],
+      "next_needed": [
+        "Synthetic fake-input / fake-output examples.",
+        "Actual agent instructions or best build-thread text."
+      ]
+    },
+    {
+      "evidence_id": "onedrive_fix_reply",
+      "label": "OneDrive duplicate-shortcut root-cause fix",
+      "state": "verified",
+      "source_type": "email_thread",
+      "source_name": "Original IT request and direct IT reply",
+      "source_date": "2026-05-17",
+      "summary": "Documents accurate root-cause analysis, clear technical communication, and an implemented fix path.",
+      "claim_tags": [
+        "workflow_analysis",
+        "it_root_cause_fix"
+      ],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "ambient_ai_research",
+      "label": "Ambient AI clinical-documentation research",
+      "state": "verified",
+      "source_type": "research_document",
+      "source_name": "Ambient AI platform analysis and cost-benefit material",
+      "source_date": "2026-04-01",
+      "summary": "Shows evaluation of clinical-documentation tooling, pricing, trial design, and business-case framing.",
+      "claim_tags": [
+        "ai_evaluation",
+        "workflow_analysis"
+      ],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "operations_management_history",
+      "label": "Operations management background",
+      "state": "verified",
+      "source_type": "profile_export",
+      "source_name": "LinkedIn export",
+      "source_date": "2026-05-16",
+      "summary": "Documents prior operations-management experience.",
+      "claim_tags": [
+        "operations_management"
+      ],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "icu_nursing_history",
+      "label": "Prior ICU nursing background",
+      "state": "verified",
+      "source_type": "profile_export",
+      "source_name": "LinkedIn export",
+      "source_date": "2026-05-16",
+      "summary": "Documents prior ICU nursing background.",
+      "claim_tags": [
+        "icu_nursing_history"
+      ],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "mental_health_first_aid_certificate",
+      "label": "Mental Health First Aid certificate",
+      "state": "verified",
+      "source_type": "certificate",
+      "source_name": "Mental Health First Aid certificate",
+      "source_date": "2026-05-17",
+      "summary": "Certificate forwarded and present in the evidence set.",
+      "claim_tags": [],
+      "notes": [],
+      "next_needed": []
+    },
+    {
+      "evidence_id": "first_aid_cpr_online_portion",
+      "label": "HSI pediatric first aid / CPR AED online portion",
+      "state": "verified",
+      "source_type": "certificate",
+      "source_name": "HSI Pediatric First Aid | CPR AED online completion",
+      "source_date": "2026-03-29",
+      "summary": "Documents successful completion of the online portion and eligibility for hands-on skills practice and evaluation.",
+      "claim_tags": [],
+      "notes": [],
+      "next_needed": [
+        "Final hands-on completion certificate."
+      ]
+    },
+    {
+      "evidence_id": "class_materials_existing",
+      "label": "Class-design work",
+      "state": "partial",
+      "source_type": "documents",
+      "source_name": "Existing class-design materials and edited handouts",
+      "source_date": "2026-05-17",
+      "summary": "Supports training-material design work, with stronger final artifacts still pending intake.",
+      "claim_tags": [
+        "class_material_design"
+      ],
+      "notes": [],
+      "next_needed": [
+        "Final class materials used by coworker."
+      ]
+    },
+    {
+      "evidence_id": "shipped_projects",
+      "label": "Shipped technical projects",
+      "state": "verified",
+      "source_type": "portfolio",
+      "source_name": "Local project portfolio",
+      "source_date": "2026-05-16",
+      "summary": "Documents shipped websites and software tools outside work.",
+      "claim_tags": [
+        "shipped_web_and_software_projects"
+      ],
+      "notes": [],
+      "next_needed": []
+    }
+  ],
+  "role_families": [
+    {
+      "family_id": "implementation_onboarding",
+      "label": "Implementation / Onboarding",
+      "primary_lane": "escape_now",
+      "fit": "high",
+      "why_it_fits": "Strong match for workflow diagnosis, documentation design, training support, and technical translation.",
+      "compatible_lanes": [
+        "escape_now"
+      ],
+      "search_terms": [
+        "implementation specialist healthcare",
+        "onboarding specialist healthcare",
+        "implementation consultant EHR",
+        "customer success implementation healthcare"
+      ],
+      "strong_evidence_hooks": [
+        "workflow_analysis",
+        "carelogic_documentation",
+        "ai_evaluation",
+        "shipped_web_and_software_projects"
+      ],
+      "watch_for": [
+        "Require direct SaaS implementation years if stated as hard requirement.",
+        "Prioritize healthcare or clinical-workflow products over generic software."
+      ]
+    },
+    {
+      "family_id": "clinical_operations",
+      "label": "Clinical Operations",
+      "primary_lane": "bridge_up",
+      "fit": "high",
+      "why_it_fits": "Strong match for behavioral-health operations, workflow monitoring, documentation, and cross-functional judgment.",
+      "compatible_lanes": [
+        "bridge_up"
+      ],
+      "search_terms": [
+        "clinical operations specialist",
+        "healthcare operations specialist",
+        "clinical workflow coordinator",
+        "care operations specialist"
+      ],
+      "strong_evidence_hooks": [
+        "behavioral_health_support",
+        "workflow_analysis",
+        "carelogic_documentation",
+        "operations_management"
+      ],
+      "watch_for": [
+        "Separate genuine operations roles from licensed-care roles wearing similar titles.",
+        "Prefer roles where documentation and process judgment matter."
+      ]
+    },
+    {
+      "family_id": "program_coordination",
+      "label": "Program / Services Coordination",
+      "primary_lane": "bridge_up",
+      "fit": "medium_high",
+      "why_it_fits": "Good match for human-services work, class materials, and operational follow-through, especially when degree equivalency is allowed.",
+      "compatible_lanes": [
+        "bridge_up"
+      ],
+      "search_terms": [
+        "program services coordinator",
+        "human services coordinator",
+        "program coordinator behavioral health",
+        "care coordination operations"
+      ],
+      "strong_evidence_hooks": [
+        "behavioral_health_support",
+        "workflow_analysis",
+        "class_material_design",
+        "operations_management"
+      ],
+      "watch_for": [
+        "Commute economics matter more for local public-sector roles.",
+        "Read degree and QMHP requirements literally."
+      ]
+    },
+    {
+      "family_id": "quality_process_documentation",
+      "label": "Quality / Process / Documentation",
+      "primary_lane": "bridge_up",
+      "fit": "high",
+      "why_it_fits": "Strong match for root-cause analysis, process cleanup, documentation reliability, and clinical-system awareness.",
+      "compatible_lanes": [
+        "bridge_up"
+      ],
+      "search_terms": [
+        "quality improvement coordinator healthcare",
+        "process improvement specialist healthcare",
+        "documentation quality specialist",
+        "clinical quality coordinator"
+      ],
+      "strong_evidence_hooks": [
+        "workflow_analysis",
+        "it_root_cause_fix",
+        "carelogic_documentation",
+        "operations_management"
+      ],
+      "watch_for": [
+        "Some quality titles conceal RN-only requirements.",
+        "Prioritize operational improvement over compliance-only roles."
+      ]
+    },
+    {
+      "family_id": "ai_documentation_workflow",
+      "label": "AI / Documentation Workflow",
+      "primary_lane": "long_shot_upside",
+      "fit": "medium_high",
+      "why_it_fits": "Compelling upside lane built from ambient-AI evaluation, workflow-agent design, and privacy-conscious documentation work.",
+      "compatible_lanes": [
+        "after_hours_cash",
+        "long_shot_upside"
+      ],
+      "search_terms": [
+        "AI workflow specialist healthcare",
+        "clinical AI operations",
+        "documentation automation specialist healthcare",
+        "AI implementation healthcare"
+      ],
+      "strong_evidence_hooks": [
+        "ai_evaluation",
+        "workflow_analysis",
+        "shipped_web_and_software_projects"
+      ],
+      "watch_for": [
+        "Many roles will expect deeper formal product or engineering experience.",
+        "Keep these visible, but do not let them displace better near-term bets."
+      ]
+    },
+    {
+      "family_id": "after_hours_document_review",
+      "label": "After-Hours Review / Contract Work",
+      "primary_lane": "after_hours_cash",
+      "fit": "medium",
+      "why_it_fits": "Potential additive-income lane for chart review, record auditing, document cleanup, and practical automation work.",
+      "compatible_lanes": [
+        "after_hours_cash"
+      ],
+      "search_terms": [
+        "medical record reviewer remote part time",
+        "chart audit remote contract",
+        "workflow automation freelance",
+        "healthcare documentation contractor"
+      ],
+      "strong_evidence_hooks": [
+        "carelogic_documentation",
+        "workflow_analysis",
+        "shipped_web_and_software_projects"
+      ],
+      "watch_for": [
+        "Confirm schedule flexibility and pay floor before investing time.",
+        "Reject commission-only or misleading gig work unless the economics are unusually strong."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "tebra_greenhouse",
+      "name": "Tebra Greenhouse",
+      "source_type": "direct_employer",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 100,
+      "provider": "greenhouse",
+      "provider_identifier": "tebra",
+      "tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "target_family_ids": [
+        "implementation_onboarding"
+      ],
+      "notes": [
+        "Direct employer source for implementation and healthcare SaaS roles."
+      ]
+    },
+    {
+      "source_id": "curai_lever",
+      "name": "Curai Lever",
+      "source_type": "official_ats",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 98,
+      "provider": "lever",
+      "provider_identifier": "curai",
+      "tracked_titles": [
+        "Clinical Operations Specialist",
+        "Provider Operations Associate"
+      ],
+      "target_family_ids": [
+        "clinical_operations"
+      ],
+      "notes": [
+        "Official ATS source for clinical operations and related remote roles."
+      ]
+    },
+    {
+      "source_id": "lane_county_governmentjobs",
+      "name": "Lane County GovernmentJobs",
+      "source_type": "public_sector",
+      "collection_mode": "planned_live",
+      "status": "seed_only",
+      "priority": 94,
+      "provider": "",
+      "provider_identifier": "",
+      "tracked_titles": [
+        "Program Services Coordinator 1"
+      ],
+      "target_family_ids": [
+        "program_coordination"
+      ],
+      "notes": [
+        "Public-sector source for coordinator and program roles."
+      ]
+    },
+    {
+      "source_id": "oregon_state_jobs",
+      "name": "Oregon State Jobs",
+      "source_type": "public_sector",
+      "collection_mode": "planned_live",
+      "status": "planned",
+      "priority": 90,
+      "provider": "",
+      "provider_identifier": "",
+      "tracked_titles": [],
+      "target_family_ids": [
+        "program_coordination",
+        "quality_process_documentation"
+      ],
+      "notes": [
+        "Potential source for health-services, program, and operations roles."
+      ]
+    },
+    {
+      "source_id": "local_healthcare_employers",
+      "name": "Local healthcare employers",
+      "source_type": "direct_employer",
+      "collection_mode": "planned_live",
+      "status": "planned",
+      "priority": 88,
+      "provider": "",
+      "provider_identifier": "",
+      "tracked_titles": [],
+      "target_family_ids": [
+        "clinical_operations",
+        "implementation_onboarding",
+        "quality_process_documentation"
+      ],
+      "notes": [
+        "Expansion set for local behavioral-health, implementation, and operations roles."
+      ]
+    },
+    {
+      "source_id": "dentalxchange_greenhouse",
+      "name": "DentalXChange Greenhouse",
+      "source_type": "direct_employer",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 97,
+      "provider": "greenhouse",
+      "provider_identifier": "dentalxchange",
+      "tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "target_family_ids": [
+        "implementation_onboarding"
+      ],
+      "notes": [
+        "Healthcare implementation source with current remote opening."
+      ]
+    },
+    {
+      "source_id": "lyrahealth_lever",
+      "name": "Lyra Health Lever",
+      "source_type": "official_ats",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 96,
+      "provider": "lever",
+      "provider_identifier": "lyrahealth",
+      "tracked_titles": [
+        "Program Specialist- Workforce Transformation"
+      ],
+      "target_family_ids": [
+        "clinical_operations",
+        "quality_process_documentation"
+      ],
+      "notes": [
+        "Behavioral-health operations source with relevant remote opening."
+      ]
+    },
+    {
+      "source_id": "humansignal_greenhouse",
+      "name": "HumanSignal Greenhouse",
+      "source_type": "official_ats",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 84,
+      "provider": "greenhouse",
+      "provider_identifier": "humansignal",
+      "tracked_titles": [
+        "Technical AI Trainer"
+      ],
+      "target_family_ids": [
+        "after_hours_document_review",
+        "ai_documentation_workflow"
+      ],
+      "notes": [
+        "Remote contract source for additive AI-training work."
+      ]
+    },
+    {
+      "source_id": "agency_greenhouse",
+      "name": "Invisible Agency Greenhouse",
+      "source_type": "official_ats",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 82,
+      "provider": "greenhouse",
+      "provider_identifier": "agency",
+      "tracked_titles": [
+        "English Language Data Contributor (Multimodal) \u2013 Freelance AI Trainer Project"
+      ],
+      "target_family_ids": [
+        "after_hours_document_review",
+        "ai_documentation_workflow"
+      ],
+      "notes": [
+        "Remote freelance source for structured AI-training work."
+      ]
+    },
+    {
+      "source_id": "nestveterinary_ashby",
+      "name": "Nest Veterinary Ashby",
+      "source_type": "official_ats",
+      "collection_mode": "live",
+      "status": "seed_only",
+      "priority": 95,
+      "provider": "ashby",
+      "provider_identifier": "nestveterinary",
+      "tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "target_family_ids": [
+        "implementation_onboarding"
+      ],
+      "notes": [
+        "Official Ashby source for remote implementation work."
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "tebra_greenhouse",
+      "checked_at": "2026-05-18T17:20:41.471546+00:00",
+      "status": "healthy",
+      "live_jobs_found": 25,
+      "matched_tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "notes": [
+        "Fetched from Greenhouse Job Board API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "curai_lever",
+      "checked_at": "2026-05-18T17:20:41.762818+00:00",
+      "status": "healthy",
+      "live_jobs_found": 10,
+      "matched_tracked_titles": [
+        "Clinical Operations Specialist"
+      ],
+      "notes": [
+        "Fetched from Lever Postings API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "lane_county_governmentjobs",
+      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "status": "seed_only",
+      "live_jobs_found": 0,
+      "matched_tracked_titles": [],
+      "notes": [
+        "No live collector implemented yet."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "oregon_state_jobs",
+      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "status": "planned",
+      "live_jobs_found": 0,
+      "matched_tracked_titles": [],
+      "notes": [
+        "No live collector implemented yet."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "local_healthcare_employers",
+      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "status": "planned",
+      "live_jobs_found": 0,
+      "matched_tracked_titles": [],
+      "notes": [
+        "No live collector implemented yet."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "dentalxchange_greenhouse",
+      "checked_at": "2026-05-18T17:20:41.973555+00:00",
+      "status": "healthy",
+      "live_jobs_found": 3,
+      "matched_tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "notes": [
+        "Fetched from Greenhouse Job Board API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "lyrahealth_lever",
+      "checked_at": "2026-05-18T17:20:42.867440+00:00",
+      "status": "healthy",
+      "live_jobs_found": 409,
+      "matched_tracked_titles": [
+        "Program Specialist- Workforce Transformation"
+      ],
+      "notes": [
+        "Fetched from Lever Postings API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "humansignal_greenhouse",
+      "checked_at": "2026-05-18T17:20:43.121738+00:00",
+      "status": "healthy",
+      "live_jobs_found": 66,
+      "matched_tracked_titles": [
+        "Technical AI Trainer"
+      ],
+      "notes": [
+        "Fetched from Greenhouse Job Board API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "agency_greenhouse",
+      "checked_at": "2026-05-18T17:20:43.358456+00:00",
+      "status": "healthy",
+      "live_jobs_found": 806,
+      "matched_tracked_titles": [
+        "English Language Data Contributor (Multimodal) \u2013 Freelance AI Trainer Project"
+      ],
+      "notes": [
+        "Fetched from Greenhouse Job Board API."
+      ],
+      "error": ""
+    },
+    {
+      "source_id": "nestveterinary_ashby",
+      "checked_at": "2026-05-18T17:20:44.330670+00:00",
+      "status": "healthy",
+      "live_jobs_found": 3,
+      "matched_tracked_titles": [
+        "Implementation Specialist"
+      ],
+      "notes": [
+        "Fetched from Ashby job-board API."
+      ],
+      "error": ""
+    }
+  ],
+  "application_packs": [
+    {
+      "opportunity_id": "tebra_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "Tebra",
+      "detail_url": "https://job-boards.greenhouse.io/tebra/jobs/4682518005",
+      "source_page_kind": "live_posting",
+      "bucket": "apply_first",
+      "matched_role_families": [
+        "Implementation / Onboarding"
+      ],
+      "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, AI tool evaluation, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "suggested_profile_variant": "Escape Now",
+      "supported_claims": [
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "carelogic_documentation",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "ai_evaluation",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "shipped_web_and_software_projects",
+          "supporting_evidence_ids": [
+            "shipped_projects"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Clinical documentation fluency: translate frontline realities into consistent, usable records.",
+        "AI-enabled operations: evaluate tools, design prompts, and apply automation where it improves real work.",
+        "Technical execution: ship practical software and web projects rather than stopping at ideas."
+      ],
+      "resume_bullet_suggestions": [
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Translated frontline care activity into consistent documentation and staff-facing records.",
+        "Evaluated AI-enabled documentation tools and designed practical workflows around real operational needs.",
+        "Shipped practical software and web projects that solved real user problems."
+      ],
+      "cover_letter_opening": "I am interested in Implementation Specialist at Tebra because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation.",
+        "How I evaluated ambient-AI charting tools, compared costs, and designed a low-risk trial path for leadership."
+      ]
+    },
+    {
+      "opportunity_id": "curai_clinical_operations_specialist",
+      "title": "Clinical Operations Specialist",
+      "company": "Curai Health",
+      "detail_url": "https://jobs.lever.co/curai/1e2296ed-fdf5-4d49-a839-e94554a28ccc",
+      "source_page_kind": "live_posting",
+      "bucket": "apply_first",
+      "matched_role_families": [
+        "Clinical Operations",
+        "Program / Services Coordination",
+        "Quality / Process / Documentation"
+      ],
+      "fit_summary": "Clinical Operations Specialist is a realistic upward bridge role that rewards the documented operations and workflow story.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, clinical documentation, and operations leadership. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.",
+      "why_me_why_now": "This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.",
+      "suggested_profile_variant": "Bridge Up",
+      "supported_claims": [
+        {
+          "claim_tag": "behavioral_health_support",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "carelogic_documentation",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "operations_management",
+          "supporting_evidence_ids": [
+            "operations_management_history"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Clinical documentation fluency: translate frontline realities into consistent, usable records.",
+        "Operational leadership: coordinate people, processes, and follow-through under real constraints."
+      ],
+      "resume_bullet_suggestions": [
+        "Supported behavioral-health residential operations in a high-trust frontline environment.",
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Translated frontline care activity into consistent documentation and staff-facing records.",
+        "Applied operations-management judgment to coordination, follow-through, and process improvement."
+      ],
+      "cover_letter_opening": "I am interested in Clinical Operations Specialist at Curai Health because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation."
+      ]
+    },
+    {
+      "opportunity_id": "dentalxchange_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "DentalXChange",
+      "detail_url": "https://job-boards.greenhouse.io/dentalxchange/jobs/4612630006",
+      "source_page_kind": "live_posting",
+      "bucket": "apply_first",
+      "matched_role_families": [
+        "Implementation / Onboarding"
+      ],
+      "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, training-material design, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "suggested_profile_variant": "Escape Now",
+      "supported_claims": [
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "carelogic_documentation",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "class_material_design",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "partial"
+        },
+        {
+          "claim_tag": "shipped_web_and_software_projects",
+          "supporting_evidence_ids": [
+            "shipped_projects"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Clinical documentation fluency: translate frontline realities into consistent, usable records.",
+        "Training support: create clear materials that help other staff teach and adopt process changes.",
+        "Technical execution: ship practical software and web projects rather than stopping at ideas."
+      ],
+      "resume_bullet_suggestions": [
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Translated frontline care activity into consistent documentation and staff-facing records.",
+        "Created training materials that made recurring staff work easier to teach and execute.",
+        "Shipped practical software and web projects that solved real user problems."
+      ],
+      "cover_letter_opening": "I am interested in Implementation Specialist at DentalXChange because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation.",
+        "How I created teaching materials that made a process easier for another staff member to deliver."
+      ]
+    },
+    {
+      "opportunity_id": "humansignal_technical_ai_trainer",
+      "title": "Technical AI Trainer",
+      "company": "HumanSignal",
+      "detail_url": "https://job-boards.greenhouse.io/humansignal/jobs/5678246004",
+      "source_page_kind": "live_posting",
+      "bucket": "after_hours_cash",
+      "matched_role_families": [
+        "AI / Documentation Workflow",
+        "After-Hours Review / Contract Work"
+      ],
+      "fit_summary": "Technical AI Trainer is best treated as additive-income work rather than a replacement-role decision.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in AI tool evaluation, workflow diagnosis, and practical technical delivery. The current evidence base supports a credible story for Technical AI Trainer without leaning on RN reinstatement.",
+      "why_me_why_now": "This is useful now as additive income because it can monetize an existing skill stack without requiring a full job change first.",
+      "suggested_profile_variant": "After-Hours Cash",
+      "supported_claims": [
+        {
+          "claim_tag": "ai_evaluation",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "shipped_web_and_software_projects",
+          "supporting_evidence_ids": [
+            "shipped_projects"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "AI-enabled operations: evaluate tools, design prompts, and apply automation where it improves real work.",
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Technical execution: ship practical software and web projects rather than stopping at ideas."
+      ],
+      "resume_bullet_suggestions": [
+        "Evaluated AI-enabled documentation tools and designed practical workflows around real operational needs.",
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Shipped practical software and web projects that solved real user problems."
+      ],
+      "cover_letter_opening": "I am interested in Technical AI Trainer because it directly uses the AI-evaluation, documentation, and structured-review strengths I already apply in real operational work.",
+      "interview_story_candidates": [
+        "How I evaluated ambient-AI charting tools, compared costs, and designed a low-risk trial path for leadership.",
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How I turned a real business need into a shipped website and usable software tools."
+      ]
+    },
+    {
+      "opportunity_id": "curai_provider_operations_associate",
+      "title": "Provider Operations Associate",
+      "company": "Curai Health",
+      "detail_url": "https://jobs.lever.co/curai/1d0e126e-dde6-42fd-93d1-dd70346a4733",
+      "source_page_kind": "live_posting",
+      "bucket": "worth_it_if_stretch",
+      "matched_role_families": [],
+      "fit_summary": "Provider Operations Associate is a longer-shot upside role that should stay visible without displacing better current bets.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, operations leadership, and clinical documentation. The current evidence base supports a credible story for Provider Operations Associate without leaning on RN reinstatement.",
+      "why_me_why_now": "This is worth active attention now because it converts 3 documented strengths into a stronger next-step role, not just a lateral move.",
+      "suggested_profile_variant": "Long-Shot Upside",
+      "supported_claims": [
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "operations_management",
+          "supporting_evidence_ids": [
+            "operations_management_history"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "carelogic_documentation",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Operational leadership: coordinate people, processes, and follow-through under real constraints.",
+        "Clinical documentation fluency: translate frontline realities into consistent, usable records."
+      ],
+      "resume_bullet_suggestions": [
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Applied operations-management judgment to coordination, follow-through, and process improvement.",
+        "Translated frontline care activity into consistent documentation and staff-facing records."
+      ],
+      "cover_letter_opening": "I am interested in Provider Operations Associate at Curai Health because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How prior operations-management experience helps me coordinate people, process, and follow-through.",
+        "How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation."
+      ]
+    },
+    {
+      "opportunity_id": "nestveterinary_implementation_specialist",
+      "title": "Implementation Specialist",
+      "company": "Nest Veterinary",
+      "detail_url": "https://jobs.ashbyhq.com/nestveterinary/25ccdded-6dd3-461c-9844-debab8fb48b5",
+      "source_page_kind": "live_posting",
+      "bucket": "good_bet",
+      "matched_role_families": [
+        "Implementation / Onboarding"
+      ],
+      "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, training-material design, operations leadership, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "suggested_profile_variant": "Escape Now",
+      "supported_claims": [
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "class_material_design",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "partial"
+        },
+        {
+          "claim_tag": "operations_management",
+          "supporting_evidence_ids": [
+            "operations_management_history"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "shipped_web_and_software_projects",
+          "supporting_evidence_ids": [
+            "shipped_projects"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Training support: create clear materials that help other staff teach and adopt process changes.",
+        "Operational leadership: coordinate people, processes, and follow-through under real constraints.",
+        "Technical execution: ship practical software and web projects rather than stopping at ideas."
+      ],
+      "resume_bullet_suggestions": [
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Created training materials that made recurring staff work easier to teach and execute.",
+        "Applied operations-management judgment to coordination, follow-through, and process improvement.",
+        "Shipped practical software and web projects that solved real user problems."
+      ],
+      "cover_letter_opening": "I am interested in Implementation Specialist at Nest Veterinary because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How I created teaching materials that made a process easier for another staff member to deliver.",
+        "How prior operations-management experience helps me coordinate people, process, and follow-through."
+      ]
+    },
+    {
+      "opportunity_id": "agency_english_language_data_contributor",
+      "title": "English Language Data Contributor (Multimodal) - Freelance AI Trainer Project",
+      "company": "Invisible Agency",
+      "detail_url": "https://job-boards.greenhouse.io/agency/jobs/4697696101",
+      "source_page_kind": "live_posting",
+      "bucket": "after_hours_cash",
+      "matched_role_families": [
+        "AI / Documentation Workflow"
+      ],
+      "fit_summary": "English Language Data Contributor (Multimodal) - Freelance AI Trainer Project is best treated as additive-income work rather than a replacement-role decision.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in AI tool evaluation, workflow diagnosis, and operations leadership. The current evidence base supports a credible story for English Language Data Contributor (Multimodal) - Freelance AI Trainer Project without leaning on RN reinstatement.",
+      "why_me_why_now": "This is useful now as additive income because it can monetize an existing skill stack without requiring a full job change first.",
+      "suggested_profile_variant": "After-Hours Cash",
+      "supported_claims": [
+        {
+          "claim_tag": "ai_evaluation",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "operations_management",
+          "supporting_evidence_ids": [
+            "operations_management_history"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [],
+      "resume_angles": [
+        "AI-enabled operations: evaluate tools, design prompts, and apply automation where it improves real work.",
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Operational leadership: coordinate people, processes, and follow-through under real constraints."
+      ],
+      "resume_bullet_suggestions": [
+        "Evaluated AI-enabled documentation tools and designed practical workflows around real operational needs.",
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Applied operations-management judgment to coordination, follow-through, and process improvement."
+      ],
+      "cover_letter_opening": "I am interested in English Language Data Contributor (Multimodal) - Freelance AI Trainer Project because it directly uses the AI-evaluation, documentation, and structured-review strengths I already apply in real operational work.",
+      "interview_story_candidates": [
+        "How I evaluated ambient-AI charting tools, compared costs, and designed a low-risk trial path for leadership.",
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How prior operations-management experience helps me coordinate people, process, and follow-through."
+      ]
+    },
+    {
+      "opportunity_id": "lane_county_program_services_coordinator_1",
+      "title": "Program Services Coordinator 1",
+      "company": "Lane County",
+      "detail_url": "https://www.governmentjobs.com/careers/lanecountyor/classspecs/992627",
+      "source_page_kind": "reference_page",
+      "bucket": "good_bet",
+      "matched_role_families": [
+        "Program / Services Coordination",
+        "Clinical Operations",
+        "Quality / Process / Documentation"
+      ],
+      "fit_summary": "Program Services Coordinator 1 is a realistic upward bridge role that rewards the documented operations and workflow story.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, training-material design, and operations leadership. The current evidence base supports a credible story for Program Services Coordinator 1 without leaning on RN reinstatement.",
+      "why_me_why_now": "This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.",
+      "suggested_profile_variant": "Bridge Up",
+      "supported_claims": [
+        {
+          "claim_tag": "behavioral_health_support",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_analysis",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories",
+            "onedrive_fix_reply",
+            "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "class_material_design",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "partial"
+        },
+        {
+          "claim_tag": "operations_management",
+          "supporting_evidence_ids": [
+            "operations_management_history"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [
+        "Commute economics are weak and need explicit comparison against remote options."
+      ],
+      "resume_angles": [
+        "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
+        "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
+        "Training support: create clear materials that help other staff teach and adopt process changes.",
+        "Operational leadership: coordinate people, processes, and follow-through under real constraints."
+      ],
+      "resume_bullet_suggestions": [
+        "Supported behavioral-health residential operations in a high-trust frontline environment.",
+        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
+        "Created training materials that made recurring staff work easier to teach and execute.",
+        "Applied operations-management judgment to coordination, follow-through, and process improvement."
+      ],
+      "cover_letter_opening": "I am interested in Program Services Coordinator 1 at Lane County because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
+        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
+        "How I created teaching materials that made a process easier for another staff member to deliver."
+      ]
+    },
+    {
+      "opportunity_id": "lane_county_mho_care_coordination_specialist_1",
+      "title": "MHO Care Coordination Specialist 1",
+      "company": "Lane County",
+      "detail_url": "https://www.governmentjobs.com/careers/lanecountyor/classspecs/967370",
+      "source_page_kind": "reference_page",
+      "bucket": "do_not_spend_time",
+      "matched_role_families": [],
+      "fit_summary": "MHO Care Coordination Specialist 1 is useful as a comparator, but current hard blockers make it a poor near-term use of time.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations and prior ICU nursing experience. The current evidence base supports a credible story for MHO Care Coordination Specialist 1 without leaning on RN reinstatement.",
+      "why_me_why_now": "The pay is attractive, but the current blocker profile means MHO Care Coordination Specialist 1 should stay a comparator rather than a near-term application target.",
+      "suggested_profile_variant": "Long-Shot Upside",
+      "supported_claims": [
+        {
+          "claim_tag": "behavioral_health_support",
+          "supporting_evidence_ids": [
+            "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "icu_nursing_history",
+          "supporting_evidence_ids": [
+            "icu_nursing_history"
+          ],
+          "best_state": "verified"
+        }
+      ],
+      "evidence_gaps": [],
+      "weak_points_to_answer": [
+        "Current posting family requires a master's/QMHP path that is not currently documented.",
+        "Commute economics are weak and need explicit comparison against remote options."
+      ],
+      "resume_angles": [
+        "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care."
+      ],
+      "resume_bullet_suggestions": [
+        "Supported behavioral-health residential operations in a high-trust frontline environment.",
+        "Bring prior ICU experience that supports calm prioritization and systems thinking."
+      ],
+      "cover_letter_opening": "I am interested in MHO Care Coordination Specialist 1 at Lane County because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
+      "interview_story_candidates": [
+        "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
+        "How prior ICU nursing experience informs calm prioritization and systems thinking."
+      ]
+    }
+  ]
+}
