@@ -1023,7 +1023,7 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-18T17:20:41.471546+00:00",
+      "checked_at": "2026-05-18T18:42:46.096597+00:00",
       "status": "healthy",
       "live_jobs_found": 25,
       "matched_tracked_titles": [
@@ -1036,7 +1036,7 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-18T17:20:41.762818+00:00",
+      "checked_at": "2026-05-18T18:42:46.503738+00:00",
       "status": "healthy",
       "live_jobs_found": 10,
       "matched_tracked_titles": [
@@ -1049,7 +1049,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "checked_at": "2026-05-18T18:42:46.506749+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1060,7 +1060,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "checked_at": "2026-05-18T18:42:46.506749+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1071,7 +1071,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-18T17:20:41.763822+00:00",
+      "checked_at": "2026-05-18T18:42:46.506749+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1082,7 +1082,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-18T17:20:41.973555+00:00",
+      "checked_at": "2026-05-18T18:42:46.719803+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1095,7 +1095,7 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-18T17:20:42.867440+00:00",
+      "checked_at": "2026-05-18T18:42:51.622461+00:00",
       "status": "healthy",
       "live_jobs_found": 409,
       "matched_tracked_titles": [
@@ -1108,7 +1108,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-18T17:20:43.121738+00:00",
+      "checked_at": "2026-05-18T18:42:51.822869+00:00",
       "status": "healthy",
       "live_jobs_found": 66,
       "matched_tracked_titles": [
@@ -1121,7 +1121,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-18T17:20:43.358456+00:00",
+      "checked_at": "2026-05-18T18:42:52.058971+00:00",
       "status": "healthy",
       "live_jobs_found": 806,
       "matched_tracked_titles": [
@@ -1134,7 +1134,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-18T17:20:44.330670+00:00",
+      "checked_at": "2026-05-18T18:42:52.318184+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
