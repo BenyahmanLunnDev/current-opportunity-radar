@@ -637,7 +637,7 @@
       "label": "College transcripts and nursing education",
       "state": "verified",
       "source_type": "transcripts",
-      "source_name": "LCC unofficial transcript and UO transcript",
+      "source_name": "College transcripts and nursing education records",
       "source_date": "2026-05-19",
       "summary": "Documents Associate of General Studies, Associate of Applied Science in Nursing, substantial college credit history, nursing clinical coursework, and additional UO science / social psychology coursework.",
       "claim_tags": [
@@ -1101,7 +1101,7 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-19T19:02:38.969573+00:00",
+      "checked_at": "2026-05-19T21:03:32.627917+00:00",
       "status": "healthy",
       "live_jobs_found": 25,
       "matched_tracked_titles": [
@@ -1114,7 +1114,7 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-19T19:02:39.289782+00:00",
+      "checked_at": "2026-05-19T21:03:33.412418+00:00",
       "status": "healthy",
       "live_jobs_found": 10,
       "matched_tracked_titles": [
@@ -1127,7 +1127,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-19T19:02:39.290818+00:00",
+      "checked_at": "2026-05-19T21:03:33.414457+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1138,7 +1138,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-19T19:02:39.290818+00:00",
+      "checked_at": "2026-05-19T21:03:33.414457+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1149,7 +1149,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-19T19:02:39.290818+00:00",
+      "checked_at": "2026-05-19T21:03:33.414457+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1160,7 +1160,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-19T19:02:39.511842+00:00",
+      "checked_at": "2026-05-19T21:03:33.625196+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1173,9 +1173,9 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-19T19:02:42.021722+00:00",
+      "checked_at": "2026-05-19T21:03:34.332659+00:00",
       "status": "healthy",
-      "live_jobs_found": 409,
+      "live_jobs_found": 412,
       "matched_tracked_titles": [
         "Program Specialist- Workforce Transformation"
       ],
@@ -1186,7 +1186,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-19T19:02:42.271549+00:00",
+      "checked_at": "2026-05-19T21:03:34.518512+00:00",
       "status": "healthy",
       "live_jobs_found": 66,
       "matched_tracked_titles": [
@@ -1199,7 +1199,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-19T19:02:42.506178+00:00",
+      "checked_at": "2026-05-19T21:03:34.777467+00:00",
       "status": "healthy",
       "live_jobs_found": 806,
       "matched_tracked_titles": [
@@ -1212,7 +1212,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-19T19:02:42.758742+00:00",
+      "checked_at": "2026-05-19T21:03:34.970593+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
