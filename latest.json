@@ -6,14 +6,14 @@
     "worth_it_if_stretch": 1,
     "after_hours_cash": 2,
     "blocked": 1,
-    "verified_evidence": 9,
-    "partial_evidence": 3,
+    "verified_evidence": 13,
+    "partial_evidence": 1,
     "pending_evidence": 0,
     "source_count": 10,
     "best_live_delta": 7.76,
     "realistic_now": 5,
     "profile_snapshot": [
-      "Residential behavioral-health support work",
+      "Residential behavioral-health support work at Men's Residential / Carlton House",
       "Medication-room capability and active involvement",
       "Prior ICU nursing background",
       "Operations management background",
@@ -22,12 +22,13 @@
       "Shipped technical projects"
     ],
     "packaging_queue": [
-      "Willamette Family Men's Residential-specific current role description if available.",
-      "Direct proof of recurring med-monitor assignment.",
-      "Synthetic fake-input / fake-output examples.",
-      "Actual agent instructions or best build-thread text.",
+      "Written adoption or thanks notes, if available.",
+      "Official transcripts only if MHACBO, Certemy, or an employer credential lead requests them.",
+      "Ask MHACBO or employer credential lead whether to open QMHA-R Non-Degree Path in Certemy.",
+      "Ask whether current role requires or benefits from CADC-R registration.",
+      "Map updated Relias transcript against MHACBO CADC domains after new trainings post.",
       "Final hands-on completion certificate.",
-      "Final class materials used by coworker."
+      "Written confirmation of class use, if easy to obtain."
     ],
     "why_these_rose": [
       {
@@ -72,8 +73,10 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "workflow_analysis",
+        "workflow_automation_agents",
         "carelogic_documentation",
         "ai_evaluation",
+        "training_material_development",
         "shipped_web_and_software_projects"
       ],
       "ratings": {
@@ -121,7 +124,9 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "behavioral_health_support",
+        "regular_med_monitor_assignment",
         "workflow_analysis",
+        "workflow_automation_agents",
         "carelogic_documentation",
         "operations_management"
       ],
@@ -170,8 +175,10 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "workflow_analysis",
+        "workflow_automation_agents",
         "carelogic_documentation",
         "class_material_design",
+        "training_material_development",
         "shipped_web_and_software_projects"
       ],
       "ratings": {
@@ -220,6 +227,7 @@
       "evidence_hooks": [
         "ai_evaluation",
         "workflow_analysis",
+        "workflow_automation_agents",
         "shipped_web_and_software_projects"
       ],
       "ratings": {
@@ -267,6 +275,7 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "workflow_analysis",
+        "workflow_automation_agents",
         "operations_management",
         "carelogic_documentation"
       ],
@@ -313,7 +322,9 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "workflow_analysis",
+        "workflow_automation_agents",
         "class_material_design",
+        "training_material_development",
         "operations_management",
         "shipped_web_and_software_projects"
       ],
@@ -363,6 +374,7 @@
       "evidence_hooks": [
         "ai_evaluation",
         "workflow_analysis",
+        "workflow_automation_agents",
         "operations_management"
       ],
       "ratings": {
@@ -408,8 +420,11 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "behavioral_health_support",
+        "regular_med_monitor_assignment",
         "workflow_analysis",
+        "workflow_automation_agents",
         "class_material_design",
+        "training_material_development",
         "operations_management"
       ],
       "ratings": {
@@ -498,59 +513,65 @@
     },
     {
       "evidence_id": "behavioral_health_support_role",
-      "label": "Residential behavioral-health support work",
+      "label": "Residential behavioral-health support work at Men's Residential / Carlton House",
       "state": "verified",
-      "source_type": "role_document",
-      "source_name": "Residential Treatment Support Staff Role and Responsibilities",
-      "source_date": "2025-12-24",
-      "summary": "Documents direct residential support, transport, documentation, safety monitoring, and medication-dispersal documentation duties.",
+      "source_type": "role_bundle",
+      "source_name": "Signed Men's Residential offer letter, Residential Treatment Support Staff role document, Willamette Family Carlton House page, and current Women's Residential posting screenshot",
+      "source_date": "2026-05-19",
+      "summary": "Documents Men's Residential employment, Carlton House / Green Acres site context, and residential support duties including direct assistance, care, transportation, documentation, safety monitoring, and medication-dispersal documentation.",
       "claim_tags": [
         "behavioral_health_support",
-        "carelogic_documentation"
+        "mens_residential_support",
+        "client_transport",
+        "carelogic_documentation",
+        "residential_treatment_operations"
       ],
       "notes": [
-        "Current document is labeled Green Acres Residential rather than Carlton House / Men's Residential."
+        "The signed offer letter explicitly names Residential Treatment Support Staff - Men's Residential and says the role description is attached.",
+        "The official Carlton House page and screenshot identify Carlton House as the men's residential program at 1420 Green Acres Rd, reducing the Green Acres / Carlton wording mismatch.",
+        "The current Women's Residential posting appears substantially similar but should be used only as supporting context, not as proof of the exact Men's Residential posting."
       ],
-      "next_needed": [
-        "Willamette Family Men's Residential-specific current role description if available."
-      ]
+      "next_needed": []
     },
     {
       "evidence_id": "med_room_bundle",
       "label": "Medication-room capability and active involvement",
-      "state": "partial",
+      "state": "verified",
       "source_type": "bundle",
-      "source_name": "Medication Safety certificate, orientation docs, med-room agenda, group/team membership, email signature",
-      "source_date": "2026-04-23",
-      "summary": "Strongly supports medication-room capability and current involvement.",
+      "source_name": "Medication Safety certificate, med-room materials, group/team membership, and 2026-05-18 staff schedule screenshots",
+      "source_date": "2026-05-18",
+      "summary": "Documents medication-room training, active med-room involvement, and recurring weekend med-room assignment in the staff schedule.",
       "claim_tags": [
-        "medication_room_involvement"
+        "medication_room_involvement",
+        "regular_med_monitor_assignment",
+        "clinical_operations"
       ],
       "notes": [
-        "Current proof is strong for training and involvement, but less clean for recurring assignment."
+        "Raw schedule screenshots stay in private evidence storage and should not be published."
       ],
-      "next_needed": [
-        "Direct proof of recurring med-monitor assignment."
-      ]
+      "next_needed": []
     },
     {
       "evidence_id": "workflow_agent_inventories",
       "label": "Workflow automation agents",
-      "state": "partial",
+      "state": "verified",
       "source_type": "documents",
-      "source_name": "Agent inventory documents",
-      "source_date": "2026-05-17",
-      "summary": "Documents four recurring Copilot workflows that turn messy inputs into structured operational documents with privacy-conscious design.",
+      "source_name": "Agent inventories, current agent instructions, and synthetic output examples",
+      "source_date": "2026-05-19",
+      "summary": "Documents recurring Copilot workflows that transform messy frontline inputs into structured operational documents, with explicit privacy-conscious output rules and human review.",
       "claim_tags": [
         "workflow_analysis",
-        "ai_evaluation"
+        "ai_evaluation",
+        "workflow_automation_agents",
+        "carelogic_documentation",
+        "operational_documentation"
       ],
       "notes": [
-        "Inventories are strong enough for internal scoring now."
+        "Current instructions and synthetic examples are enough to support portfolio and application claims.",
+        "Written adoption or thanks evidence would help polish public-facing proof but is no longer a blocker."
       ],
       "next_needed": [
-        "Synthetic fake-input / fake-output examples.",
-        "Actual agent instructions or best build-thread text."
+        "Written adoption or thanks notes, if available."
       ]
     },
     {
@@ -612,6 +633,52 @@
       "next_needed": []
     },
     {
+      "evidence_id": "college_transcripts",
+      "label": "College transcripts and nursing education",
+      "state": "verified",
+      "source_type": "transcripts",
+      "source_name": "LCC unofficial transcript and UO transcript",
+      "source_date": "2026-05-19",
+      "summary": "Documents Associate of General Studies, Associate of Applied Science in Nursing, substantial college credit history, nursing clinical coursework, and additional UO science / social psychology coursework.",
+      "claim_tags": [
+        "college_credit_record",
+        "aas_nursing",
+        "nursing_education",
+        "science_coursework",
+        "credential_pathway_support"
+      ],
+      "notes": [
+        "LCC transcript is image/scanned evidence and should remain in private storage.",
+        "Official transcripts may still be required for MHACBO, employer, or school verification."
+      ],
+      "next_needed": [
+        "Official transcripts only if MHACBO, Certemy, or an employer credential lead requests them."
+      ]
+    },
+    {
+      "evidence_id": "mhacbo_credential_pathway_audit",
+      "label": "MHACBO credential-pathway audit",
+      "state": "partial",
+      "source_type": "official_requirement_review",
+      "source_name": "MHACBO requirement pages plus transcript / Relias evidence review",
+      "source_date": "2026-05-19",
+      "summary": "Preliminary requirement map suggests QMHA-R Non-Degree Path is the strongest first credential bridge to verify; CADC-R/CADC-I are plausible but need A&D-domain and supervised-hour confirmation; CADC-II is a longer, heavier path; CRM is a separate peer lane.",
+      "claim_tags": [
+        "credential_pathway_support",
+        "qmha_r_pathway_to_verify",
+        "cadc_pathway_to_verify"
+      ],
+      "notes": [
+        "This is not a credential eligibility decision. MHACBO, Certemy, or employer credential leadership must confirm final path fit.",
+        "The Copilot MHACBO conversation is useful background but should not be treated as authority."
+      ],
+      "next_needed": [
+        "Ask MHACBO or employer credential lead whether to open QMHA-R Non-Degree Path in Certemy.",
+        "Ask whether current role requires or benefits from CADC-R registration.",
+        "Map updated Relias transcript against MHACBO CADC domains after new trainings post."
+      ]
+    },
+    {
       "evidence_id": "mental_health_first_aid_certificate",
       "label": "Mental Health First Aid certificate",
       "state": "verified",
@@ -640,17 +707,21 @@
     {
       "evidence_id": "class_materials_existing",
       "label": "Class-design work",
-      "state": "partial",
+      "state": "verified",
       "source_type": "documents",
-      "source_name": "Existing class-design materials and edited handouts",
-      "source_date": "2026-05-17",
-      "summary": "Supports training-material design work, with stronger final artifacts still pending intake.",
+      "source_name": "Class design email with handouts, facilitator guide, and MOUD curriculum research pack",
+      "source_date": "2026-05-19",
+      "summary": "Documents creation and editing of structured class handouts, facilitator materials, and evidence-based psychoeducation curriculum planning.",
       "claim_tags": [
-        "class_material_design"
+        "class_material_design",
+        "training_material_development",
+        "behavioral_health_education"
       ],
-      "notes": [],
+      "notes": [
+        "This verifies class-design and material-development work; written confirmation of classroom use would be a bonus."
+      ],
       "next_needed": [
-        "Final class materials used by coworker."
+        "Written confirmation of class use, if easy to obtain."
       ]
     },
     {
@@ -688,6 +759,8 @@
         "workflow_analysis",
         "carelogic_documentation",
         "ai_evaluation",
+        "workflow_automation_agents",
+        "training_material_development",
         "shipped_web_and_software_projects"
       ],
       "watch_for": [
@@ -712,6 +785,7 @@
       ],
       "strong_evidence_hooks": [
         "behavioral_health_support",
+        "regular_med_monitor_assignment",
         "workflow_analysis",
         "carelogic_documentation",
         "operations_management"
@@ -740,6 +814,7 @@
         "behavioral_health_support",
         "workflow_analysis",
         "class_material_design",
+        "training_material_development",
         "operations_management"
       ],
       "watch_for": [
@@ -766,6 +841,7 @@
         "workflow_analysis",
         "it_root_cause_fix",
         "carelogic_documentation",
+        "workflow_automation_agents",
         "operations_management"
       ],
       "watch_for": [
@@ -792,6 +868,7 @@
       "strong_evidence_hooks": [
         "ai_evaluation",
         "workflow_analysis",
+        "workflow_automation_agents",
         "shipped_web_and_software_projects"
       ],
       "watch_for": [
@@ -817,6 +894,7 @@
       "strong_evidence_hooks": [
         "carelogic_documentation",
         "workflow_analysis",
+        "workflow_automation_agents",
         "shipped_web_and_software_projects"
       ],
       "watch_for": [
@@ -1023,7 +1101,7 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-18T18:42:46.096597+00:00",
+      "checked_at": "2026-05-19T19:02:38.969573+00:00",
       "status": "healthy",
       "live_jobs_found": 25,
       "matched_tracked_titles": [
@@ -1036,7 +1114,7 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-18T18:42:46.503738+00:00",
+      "checked_at": "2026-05-19T19:02:39.289782+00:00",
       "status": "healthy",
       "live_jobs_found": 10,
       "matched_tracked_titles": [
@@ -1049,7 +1127,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-18T18:42:46.506749+00:00",
+      "checked_at": "2026-05-19T19:02:39.290818+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1060,7 +1138,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-18T18:42:46.506749+00:00",
+      "checked_at": "2026-05-19T19:02:39.290818+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1071,7 +1149,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-18T18:42:46.506749+00:00",
+      "checked_at": "2026-05-19T19:02:39.290818+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1082,7 +1160,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-18T18:42:46.719803+00:00",
+      "checked_at": "2026-05-19T19:02:39.511842+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1095,7 +1173,7 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-18T18:42:51.622461+00:00",
+      "checked_at": "2026-05-19T19:02:42.021722+00:00",
       "status": "healthy",
       "live_jobs_found": 409,
       "matched_tracked_titles": [
@@ -1108,7 +1186,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-18T18:42:51.822869+00:00",
+      "checked_at": "2026-05-19T19:02:42.271549+00:00",
       "status": "healthy",
       "live_jobs_found": 66,
       "matched_tracked_titles": [
@@ -1121,7 +1199,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-18T18:42:52.058971+00:00",
+      "checked_at": "2026-05-19T19:02:42.506178+00:00",
       "status": "healthy",
       "live_jobs_found": 806,
       "matched_tracked_titles": [
@@ -1134,7 +1212,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-18T18:42:52.318184+00:00",
+      "checked_at": "2026-05-19T19:02:42.758742+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1159,7 +1237,7 @@
       ],
       "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, AI tool evaluation, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 6 documented strengths.",
       "suggested_profile_variant": "Escape Now",
       "supported_claims": [
         {
@@ -1172,9 +1250,17 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "carelogic_documentation",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         },
@@ -1183,6 +1269,13 @@
           "supporting_evidence_ids": [
             "workflow_agent_inventories",
             "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "training_material_development",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
           ],
           "best_state": "verified"
         },
@@ -1224,18 +1317,25 @@
       "bucket": "apply_first",
       "matched_role_families": [
         "Clinical Operations",
-        "Program / Services Coordination",
-        "Quality / Process / Documentation"
+        "Quality / Process / Documentation",
+        "Program / Services Coordination"
       ],
       "fit_summary": "Clinical Operations Specialist is a realistic upward bridge role that rewards the documented operations and workflow story.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, clinical documentation, and operations leadership. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.",
+      "why_me_why_now": "This is worth active attention now because it converts 6 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
             "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "regular_med_monitor_assignment",
+          "supporting_evidence_ids": [
+            "med_room_bundle"
           ],
           "best_state": "verified"
         },
@@ -1249,9 +1349,17 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "carelogic_documentation",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         },
@@ -1296,7 +1404,7 @@
       ],
       "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, clinical documentation, training-material design, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 6 documented strengths.",
       "suggested_profile_variant": "Escape Now",
       "supported_claims": [
         {
@@ -1309,9 +1417,17 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "carelogic_documentation",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         },
@@ -1320,7 +1436,14 @@
           "supporting_evidence_ids": [
             "class_materials_existing"
           ],
-          "best_state": "partial"
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "training_material_development",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "verified"
         },
         {
           "claim_tag": "shipped_web_and_software_projects",
@@ -1385,6 +1508,13 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "shipped_web_and_software_projects",
           "supporting_evidence_ids": [
             "shipped_projects"
@@ -1418,10 +1548,12 @@
       "detail_url": "https://jobs.lever.co/curai/1d0e126e-dde6-42fd-93d1-dd70346a4733",
       "source_page_kind": "live_posting",
       "bucket": "worth_it_if_stretch",
-      "matched_role_families": [],
+      "matched_role_families": [
+        "AI / Documentation Workflow"
+      ],
       "fit_summary": "Provider Operations Associate is a longer-shot upside role that should stay visible without displacing better current bets.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, operations leadership, and clinical documentation. The current evidence base supports a credible story for Provider Operations Associate without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 3 documented strengths into a stronger next-step role, not just a lateral move.",
+      "why_me_why_now": "This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Long-Shot Upside",
       "supported_claims": [
         {
@@ -1430,6 +1562,13 @@
             "workflow_agent_inventories",
             "onedrive_fix_reply",
             "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         },
@@ -1443,7 +1582,8 @@
         {
           "claim_tag": "carelogic_documentation",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         }
@@ -1479,7 +1619,7 @@
       ],
       "fit_summary": "Implementation Specialist is a practical replacement-role candidate with a posted floor above the current survival threshold.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in workflow diagnosis, training-material design, operations leadership, and practical technical delivery. The current evidence base supports a credible story for Implementation Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 4 documented strengths.",
+      "why_me_why_now": "This is a near-term income-improvement target because it clears the replacement floor and already lines up with 6 documented strengths.",
       "suggested_profile_variant": "Escape Now",
       "supported_claims": [
         {
@@ -1492,11 +1632,25 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "class_material_design",
           "supporting_evidence_ids": [
             "class_materials_existing"
           ],
-          "best_state": "partial"
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "training_material_development",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "verified"
         },
         {
           "claim_tag": "operations_management",
@@ -1542,7 +1696,8 @@
       "source_page_kind": "live_posting",
       "bucket": "after_hours_cash",
       "matched_role_families": [
-        "AI / Documentation Workflow"
+        "AI / Documentation Workflow",
+        "After-Hours Review / Contract Work"
       ],
       "fit_summary": "English Language Data Contributor (Multimodal) - Freelance AI Trainer Project is best treated as additive-income work rather than a replacement-role decision.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in AI tool evaluation, workflow diagnosis, and operations leadership. The current evidence base supports a credible story for English Language Data Contributor (Multimodal) - Freelance AI Trainer Project without leaning on RN reinstatement.",
@@ -1563,6 +1718,13 @@
             "workflow_agent_inventories",
             "onedrive_fix_reply",
             "ambient_ai_research"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
           ],
           "best_state": "verified"
         },
@@ -1607,13 +1769,20 @@
       ],
       "fit_summary": "Program Services Coordinator 1 is a realistic upward bridge role that rewards the documented operations and workflow story.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, training-material design, and operations leadership. The current evidence base supports a credible story for Program Services Coordinator 1 without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 4 documented strengths into a stronger next-step role, not just a lateral move.",
+      "why_me_why_now": "This is worth active attention now because it converts 7 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
             "behavioral_health_support_role"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "regular_med_monitor_assignment",
+          "supporting_evidence_ids": [
+            "med_room_bundle"
           ],
           "best_state": "verified"
         },
@@ -1627,11 +1796,25 @@
           "best_state": "verified"
         },
         {
+          "claim_tag": "workflow_automation_agents",
+          "supporting_evidence_ids": [
+            "workflow_agent_inventories"
+          ],
+          "best_state": "verified"
+        },
+        {
           "claim_tag": "class_material_design",
           "supporting_evidence_ids": [
             "class_materials_existing"
           ],
-          "best_state": "partial"
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "training_material_development",
+          "supporting_evidence_ids": [
+            "class_materials_existing"
+          ],
+          "best_state": "verified"
         },
         {
           "claim_tag": "operations_management",
