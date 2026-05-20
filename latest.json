@@ -709,16 +709,19 @@
       "label": "Class-design work",
       "state": "verified",
       "source_type": "documents",
-      "source_name": "Class design email with handouts, facilitator guide, and MOUD curriculum research pack",
-      "source_date": "2026-05-19",
-      "summary": "Documents creation and editing of structured class handouts, facilitator materials, and evidence-based psychoeducation curriculum planning.",
+      "source_name": "Forwarded class-design emails with handout, facilitator guide, prompt notes, visual design exports, and curriculum planning materials",
+      "source_date": "2026-05-20",
+      "summary": "Documents audience-aware class and training-material development for men's residential treatment, including needs intake, structured group design, client handout writing, facilitator-guide writing, visual handout iteration, AI image prompting, and Stitch-based redesign work.",
       "claim_tags": [
         "class_material_design",
         "training_material_development",
-        "behavioral_health_education"
+        "behavioral_health_education",
+        "facilitation_support",
+        "visual_document_design"
       ],
       "notes": [
-        "This verifies class-design and material-development work; written confirmation of classroom use would be a bonus."
+        "This verifies class-design and material-development work; written confirmation of classroom use would be a bonus.",
+        "Use this as evidence of curriculum support, audience adaptation, and practical material design rather than claiming broad program adoption."
       ],
       "next_needed": [
         "Written confirmation of class use, if easy to obtain."
@@ -815,6 +818,7 @@
         "workflow_analysis",
         "class_material_design",
         "training_material_development",
+        "facilitation_support",
         "operations_management"
       ],
       "watch_for": [
@@ -1101,7 +1105,7 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-20T13:33:22.741071+00:00",
+      "checked_at": "2026-05-20T19:03:53.264689+00:00",
       "status": "healthy",
       "live_jobs_found": 24,
       "matched_tracked_titles": [
@@ -1114,7 +1118,7 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-20T13:33:23.038169+00:00",
+      "checked_at": "2026-05-20T19:03:53.682510+00:00",
       "status": "healthy",
       "live_jobs_found": 10,
       "matched_tracked_titles": [
@@ -1127,7 +1131,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-20T13:33:23.039191+00:00",
+      "checked_at": "2026-05-20T19:03:53.683516+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1138,7 +1142,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-20T13:33:23.039191+00:00",
+      "checked_at": "2026-05-20T19:03:53.683516+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1149,7 +1153,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-20T13:33:23.039191+00:00",
+      "checked_at": "2026-05-20T19:03:53.683516+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1160,7 +1164,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-20T13:33:23.218143+00:00",
+      "checked_at": "2026-05-20T19:03:53.887591+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1173,9 +1177,9 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-20T13:33:24.101840+00:00",
+      "checked_at": "2026-05-20T19:03:54.633395+00:00",
       "status": "healthy",
-      "live_jobs_found": 419,
+      "live_jobs_found": 420,
       "matched_tracked_titles": [
         "Program Specialist- Workforce Transformation"
       ],
@@ -1186,7 +1190,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-20T13:33:24.284888+00:00",
+      "checked_at": "2026-05-20T19:03:54.901265+00:00",
       "status": "healthy",
       "live_jobs_found": 66,
       "matched_tracked_titles": [
@@ -1199,7 +1203,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-20T13:33:24.599753+00:00",
+      "checked_at": "2026-05-20T19:03:55.126850+00:00",
       "status": "healthy",
       "live_jobs_found": 806,
       "matched_tracked_titles": [
@@ -1212,7 +1216,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-20T13:33:24.713939+00:00",
+      "checked_at": "2026-05-20T19:03:55.526308+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
