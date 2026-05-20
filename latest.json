@@ -1101,9 +1101,9 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-19T21:03:32.627917+00:00",
+      "checked_at": "2026-05-20T13:32:45.238696+00:00",
       "status": "healthy",
-      "live_jobs_found": 25,
+      "live_jobs_found": 24,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1114,7 +1114,7 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-19T21:03:33.412418+00:00",
+      "checked_at": "2026-05-20T13:32:45.672676+00:00",
       "status": "healthy",
       "live_jobs_found": 10,
       "matched_tracked_titles": [
@@ -1127,7 +1127,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-19T21:03:33.414457+00:00",
+      "checked_at": "2026-05-20T13:32:45.674700+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1138,7 +1138,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-19T21:03:33.414457+00:00",
+      "checked_at": "2026-05-20T13:32:45.674700+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1149,7 +1149,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-19T21:03:33.414457+00:00",
+      "checked_at": "2026-05-20T13:32:45.674700+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1160,7 +1160,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-19T21:03:33.625196+00:00",
+      "checked_at": "2026-05-20T13:32:45.924901+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1173,9 +1173,9 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-19T21:03:34.332659+00:00",
+      "checked_at": "2026-05-20T13:32:46.785351+00:00",
       "status": "healthy",
-      "live_jobs_found": 412,
+      "live_jobs_found": 419,
       "matched_tracked_titles": [
         "Program Specialist- Workforce Transformation"
       ],
@@ -1186,7 +1186,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-19T21:03:34.518512+00:00",
+      "checked_at": "2026-05-20T13:32:47.028095+00:00",
       "status": "healthy",
       "live_jobs_found": 66,
       "matched_tracked_titles": [
@@ -1199,7 +1199,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-19T21:03:34.777467+00:00",
+      "checked_at": "2026-05-20T13:32:47.341450+00:00",
       "status": "healthy",
       "live_jobs_found": 806,
       "matched_tracked_titles": [
@@ -1212,7 +1212,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-19T21:03:34.970593+00:00",
+      "checked_at": "2026-05-20T13:32:47.693137+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
