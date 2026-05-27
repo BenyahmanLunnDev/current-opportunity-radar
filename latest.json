@@ -1105,7 +1105,7 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-26T13:32:08.663277+00:00",
+      "checked_at": "2026-05-27T13:31:50.862794+00:00",
       "status": "healthy",
       "live_jobs_found": 24,
       "matched_tracked_titles": [
@@ -1118,9 +1118,9 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-26T13:32:08.885871+00:00",
+      "checked_at": "2026-05-27T13:31:51.128117+00:00",
       "status": "healthy",
-      "live_jobs_found": 6,
+      "live_jobs_found": 5,
       "matched_tracked_titles": [
         "Clinical Operations Specialist"
       ],
@@ -1131,7 +1131,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-26T13:32:08.887856+00:00",
+      "checked_at": "2026-05-27T13:31:51.128117+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1142,7 +1142,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-26T13:32:08.887856+00:00",
+      "checked_at": "2026-05-27T13:31:51.128117+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1153,7 +1153,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-26T13:32:08.887856+00:00",
+      "checked_at": "2026-05-27T13:31:51.128117+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1164,7 +1164,7 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-26T13:32:09.059482+00:00",
+      "checked_at": "2026-05-27T13:31:51.302256+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1177,7 +1177,7 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-26T13:32:09.639558+00:00",
+      "checked_at": "2026-05-27T13:31:51.906659+00:00",
       "status": "healthy",
       "live_jobs_found": 416,
       "matched_tracked_titles": [
@@ -1190,9 +1190,9 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-26T13:32:09.916752+00:00",
+      "checked_at": "2026-05-27T13:31:52.133063+00:00",
       "status": "healthy",
-      "live_jobs_found": 66,
+      "live_jobs_found": 68,
       "matched_tracked_titles": [
         "Technical AI Trainer"
       ],
@@ -1203,7 +1203,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-26T13:32:10.139709+00:00",
+      "checked_at": "2026-05-27T13:31:52.358114+00:00",
       "status": "healthy",
       "live_jobs_found": 807,
       "matched_tracked_titles": [
@@ -1216,7 +1216,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-26T13:32:10.236577+00:00",
+      "checked_at": "2026-05-27T13:31:52.463045+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
