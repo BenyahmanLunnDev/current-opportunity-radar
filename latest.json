@@ -6,7 +6,7 @@
     "worth_it_if_stretch": 1,
     "after_hours_cash": 2,
     "blocked": 1,
-    "verified_evidence": 13,
+    "verified_evidence": 14,
     "partial_evidence": 1,
     "pending_evidence": 0,
     "source_count": 10,
@@ -124,6 +124,9 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "behavioral_health_support",
+        "crisis_intervention",
+        "de_escalation",
+        "safety_monitoring",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "workflow_automation_agents",
@@ -420,6 +423,9 @@
       "hard_blockers": [],
       "evidence_hooks": [
         "behavioral_health_support",
+        "crisis_intervention",
+        "de_escalation",
+        "safety_monitoring",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "workflow_automation_agents",
@@ -472,6 +478,9 @@
       ],
       "evidence_hooks": [
         "behavioral_health_support",
+        "crisis_intervention",
+        "de_escalation",
+        "safety_monitoring",
         "icu_nursing_history"
       ],
       "ratings": {
@@ -691,6 +700,26 @@
       "next_needed": []
     },
     {
+      "evidence_id": "nonviolent_crisis_intervention_cpi_blue_card",
+      "label": "CPI Blue Card / Nonviolent Crisis Intervention training",
+      "state": "verified",
+      "source_type": "certificate_card",
+      "source_name": "CPI Blue Card - Nonviolent Crisis Intervention, 3rd Edition Training",
+      "source_date": "2026-05-28",
+      "summary": "Documents completion of Crisis Prevention Institute Nonviolent Crisis Intervention, 3rd Edition Training at Willamette Family Downtown on 2026-05-28. Card lists modules 1-7, 8.5 hours, and expiration on 2028-05-27.",
+      "claim_tags": [
+        "crisis_intervention",
+        "de_escalation",
+        "safety_monitoring",
+        "behavioral_health_support",
+        "residential_treatment_operations"
+      ],
+      "notes": [
+        "Keep card images in private evidence storage; do not publish the card ID unless an employer specifically needs it."
+      ],
+      "next_needed": []
+    },
+    {
       "evidence_id": "first_aid_cpr_online_portion",
       "label": "HSI pediatric first aid / CPR AED online portion",
       "state": "verified",
@@ -788,6 +817,8 @@
       ],
       "strong_evidence_hooks": [
         "behavioral_health_support",
+        "crisis_intervention",
+        "de_escalation",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "carelogic_documentation",
@@ -815,6 +846,8 @@
       ],
       "strong_evidence_hooks": [
         "behavioral_health_support",
+        "crisis_intervention",
+        "de_escalation",
         "workflow_analysis",
         "class_material_design",
         "training_material_development",
@@ -1105,9 +1138,9 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-05-28T13:33:13.749381+00:00",
+      "checked_at": "2026-05-29T13:32:50.420311+00:00",
       "status": "healthy",
-      "live_jobs_found": 23,
+      "live_jobs_found": 25,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1118,9 +1151,9 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-05-28T13:33:13.962325+00:00",
+      "checked_at": "2026-05-29T13:32:50.704059+00:00",
       "status": "healthy",
-      "live_jobs_found": 5,
+      "live_jobs_found": 4,
       "matched_tracked_titles": [
         "Clinical Operations Specialist"
       ],
@@ -1131,7 +1164,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-05-28T13:33:13.965350+00:00",
+      "checked_at": "2026-05-29T13:32:50.704059+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1142,7 +1175,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-05-28T13:33:13.965350+00:00",
+      "checked_at": "2026-05-29T13:32:50.704059+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1153,7 +1186,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-05-28T13:33:13.965350+00:00",
+      "checked_at": "2026-05-29T13:32:50.704059+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1164,9 +1197,9 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-05-28T13:33:14.157204+00:00",
+      "checked_at": "2026-05-29T13:32:50.884515+00:00",
       "status": "healthy",
-      "live_jobs_found": 3,
+      "live_jobs_found": 1,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1177,7 +1210,7 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-05-28T13:33:14.944194+00:00",
+      "checked_at": "2026-05-29T13:32:51.415976+00:00",
       "status": "healthy",
       "live_jobs_found": 417,
       "matched_tracked_titles": [
@@ -1190,7 +1223,7 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-05-28T13:33:15.227400+00:00",
+      "checked_at": "2026-05-29T13:32:51.586548+00:00",
       "status": "healthy",
       "live_jobs_found": 50,
       "matched_tracked_titles": [],
@@ -1201,7 +1234,7 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-05-28T13:33:15.483327+00:00",
+      "checked_at": "2026-05-29T13:32:51.785169+00:00",
       "status": "healthy",
       "live_jobs_found": 811,
       "matched_tracked_titles": [
@@ -1214,7 +1247,7 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-05-28T13:33:15.606934+00:00",
+      "checked_at": "2026-05-29T13:33:01.991828+00:00",
       "status": "healthy",
       "live_jobs_found": 3,
       "matched_tracked_titles": [
@@ -1319,18 +1352,40 @@
       "bucket": "apply_first",
       "matched_role_families": [
         "Clinical Operations",
-        "Quality / Process / Documentation",
-        "Program / Services Coordination"
+        "Program / Services Coordination",
+        "Quality / Process / Documentation"
       ],
       "fit_summary": "Clinical Operations Specialist is a realistic upward bridge role that rewards the documented operations and workflow story.",
-      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, clinical documentation, and operations leadership. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 6 documented strengths into a stronger next-step role, not just a lateral move.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, nonviolent crisis-intervention training, de-escalation readiness, and safety monitoring. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.",
+      "why_me_why_now": "This is worth active attention now because it converts 9 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "crisis_intervention",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "de_escalation",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "safety_monitoring",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
           ],
           "best_state": "verified"
         },
@@ -1377,21 +1432,24 @@
       "weak_points_to_answer": [],
       "resume_angles": [
         "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
+        "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
+        "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
+        "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care.",
         "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
         "Clinical documentation fluency: translate frontline realities into consistent, usable records.",
         "Operational leadership: coordinate people, processes, and follow-through under real constraints."
       ],
       "resume_bullet_suggestions": [
         "Supported behavioral-health residential operations in a high-trust frontline environment.",
-        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
-        "Translated frontline care activity into consistent documentation and staff-facing records.",
-        "Applied operations-management judgment to coordination, follow-through, and process improvement."
+        "Completed CPI Nonviolent Crisis Intervention training supporting safer behavioral-health residential work.",
+        "Use calm, person-centered de-escalation practices in direct support environments.",
+        "Support safety monitoring and harm-reduction expectations in residential treatment operations."
       ],
       "cover_letter_opening": "I am interested in Clinical Operations Specialist at Curai Health because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
       "interview_story_candidates": [
         "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
-        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
-        "How frontline residential work taught me to turn messy real-world activity into reliable clinical documentation."
+        "How CPI training fits the direct behavioral-health support work I do now.",
+        "How I apply a calm, person-centered approach during tense situations."
       ]
     },
     {
@@ -1770,14 +1828,36 @@
         "Quality / Process / Documentation"
       ],
       "fit_summary": "Program Services Coordinator 1 is a realistic upward bridge role that rewards the documented operations and workflow story.",
-      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, workflow diagnosis, training-material design, and operations leadership. The current evidence base supports a credible story for Program Services Coordinator 1 without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 7 documented strengths into a stronger next-step role, not just a lateral move.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, nonviolent crisis-intervention training, de-escalation readiness, and safety monitoring. The current evidence base supports a credible story for Program Services Coordinator 1 without leaning on RN reinstatement.",
+      "why_me_why_now": "This is worth active attention now because it converts 10 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "crisis_intervention",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "de_escalation",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "safety_monitoring",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
           ],
           "best_state": "verified"
         },
@@ -1832,21 +1912,24 @@
       ],
       "resume_angles": [
         "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
+        "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
+        "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
+        "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care.",
         "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
         "Training support: create clear materials that help other staff teach and adopt process changes.",
         "Operational leadership: coordinate people, processes, and follow-through under real constraints."
       ],
       "resume_bullet_suggestions": [
         "Supported behavioral-health residential operations in a high-trust frontline environment.",
-        "Diagnosed workflow friction and converted it into clearer, more reliable operating processes.",
-        "Created training materials that made recurring staff work easier to teach and execute.",
-        "Applied operations-management judgment to coordination, follow-through, and process improvement."
+        "Completed CPI Nonviolent Crisis Intervention training supporting safer behavioral-health residential work.",
+        "Use calm, person-centered de-escalation practices in direct support environments.",
+        "Support safety monitoring and harm-reduction expectations in residential treatment operations."
       ],
       "cover_letter_opening": "I am interested in Program Services Coordinator 1 at Lane County because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
       "interview_story_candidates": [
         "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
-        "How I diagnosed a recurring workflow problem, clarified the cause, and helped move a practical fix into place.",
-        "How I created teaching materials that made a process easier for another staff member to deliver."
+        "How CPI training fits the direct behavioral-health support work I do now.",
+        "How I apply a calm, person-centered approach during tense situations."
       ]
     },
     {
@@ -1858,14 +1941,36 @@
       "bucket": "do_not_spend_time",
       "matched_role_families": [],
       "fit_summary": "MHO Care Coordination Specialist 1 is useful as a comparator, but current hard blockers make it a poor near-term use of time.",
-      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations and prior ICU nursing experience. The current evidence base supports a credible story for MHO Care Coordination Specialist 1 without leaning on RN reinstatement.",
+      "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, nonviolent crisis-intervention training, de-escalation readiness, and safety monitoring. The current evidence base supports a credible story for MHO Care Coordination Specialist 1 without leaning on RN reinstatement.",
       "why_me_why_now": "The pay is attractive, but the current blocker profile means MHO Care Coordination Specialist 1 should stay a comparator rather than a near-term application target.",
       "suggested_profile_variant": "Long-Shot Upside",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
-            "behavioral_health_support_role"
+            "behavioral_health_support_role",
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "crisis_intervention",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "de_escalation",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "safety_monitoring",
+          "supporting_evidence_ids": [
+            "nonviolent_crisis_intervention_cpi_blue_card"
           ],
           "best_state": "verified"
         },
@@ -1883,16 +1988,22 @@
         "Commute economics are weak and need explicit comparison against remote options."
       ],
       "resume_angles": [
-        "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care."
+        "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
+        "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
+        "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
+        "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care."
       ],
       "resume_bullet_suggestions": [
         "Supported behavioral-health residential operations in a high-trust frontline environment.",
-        "Bring prior ICU experience that supports calm prioritization and systems thinking."
+        "Completed CPI Nonviolent Crisis Intervention training supporting safer behavioral-health residential work.",
+        "Use calm, person-centered de-escalation practices in direct support environments.",
+        "Support safety monitoring and harm-reduction expectations in residential treatment operations."
       ],
       "cover_letter_opening": "I am interested in MHO Care Coordination Specialist 1 at Lane County because the role sits exactly where my current strengths meet: healthcare operations, workflow improvement, documentation, and practical systems thinking.",
       "interview_story_candidates": [
         "How direct behavioral-health work sharpened my judgment about what staff actually need from processes and tools.",
-        "How prior ICU nursing experience informs calm prioritization and systems thinking."
+        "How CPI training fits the direct behavioral-health support work I do now.",
+        "How I apply a calm, person-centered approach during tense situations."
       ]
     }
   ]
