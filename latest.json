@@ -27,7 +27,6 @@
       "Ask MHACBO or employer credential lead whether to open QMHA-R Non-Degree Path in Certemy.",
       "Ask whether current role requires or benefits from CADC-R registration.",
       "Map updated Relias transcript against MHACBO CADC domains after new trainings post.",
-      "Final hands-on completion certificate.",
       "Written confirmation of class use, if easy to obtain."
     ],
     "why_these_rose": [
@@ -127,6 +126,8 @@
         "crisis_intervention",
         "de_escalation",
         "safety_monitoring",
+        "first_aid",
+        "cpr_aed",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "workflow_automation_agents",
@@ -426,6 +427,8 @@
         "crisis_intervention",
         "de_escalation",
         "safety_monitoring",
+        "first_aid",
+        "cpr_aed",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "workflow_automation_agents",
@@ -481,6 +484,8 @@
         "crisis_intervention",
         "de_escalation",
         "safety_monitoring",
+        "first_aid",
+        "cpr_aed",
         "icu_nursing_history"
       ],
       "ratings": {
@@ -696,7 +701,9 @@
       "source_date": "2026-05-17",
       "summary": "Certificate forwarded and present in the evidence set.",
       "claim_tags": [],
-      "notes": [],
+      "notes": [
+        "A later work-email message titled MHFA and CPI Relias Certificates includes Relias ZIP certificate exports, but the ZIP contents have not been ingested yet. Treat as duplicate/secondary proof unless unpacked."
+      ],
       "next_needed": []
     },
     {
@@ -715,23 +722,30 @@
         "residential_treatment_operations"
       ],
       "notes": [
-        "Keep card images in private evidence storage; do not publish the card ID unless an employer specifically needs it."
+        "Keep card images in private evidence storage; do not publish the card ID unless an employer specifically needs it.",
+        "A later work-email message titled MHFA and CPI Relias Certificates includes Relias ZIP certificate exports, but the ZIP contents have not been ingested yet. Treat as duplicate/secondary proof unless unpacked."
       ],
       "next_needed": []
     },
     {
-      "evidence_id": "first_aid_cpr_online_portion",
-      "label": "HSI pediatric first aid / CPR AED online portion",
+      "evidence_id": "first_aid_cpr_aed_certificate",
+      "label": "HSI Pediatric First Aid | CPR AED Child/Infant/Adult certification",
       "state": "verified",
       "source_type": "certificate",
-      "source_name": "HSI Pediatric First Aid | CPR AED online completion",
-      "source_date": "2026-03-29",
-      "summary": "Documents successful completion of the online portion and eligibility for hands-on skills practice and evaluation.",
-      "claim_tags": [],
-      "notes": [],
-      "next_needed": [
-        "Final hands-on completion certificate."
-      ]
+      "source_name": "Private HSI first-aid / CPR AED certificate",
+      "source_date": "2026-06-17",
+      "summary": "Documents successful completion of HSI Pediatric First Aid | CPR AED Child/Infant/Adult (2020), including required knowledge and hands-on skill objectives. Training center is Willamette Family Inc; class completed 2026-06-16 and certification expires 2028-06.",
+      "claim_tags": [
+        "first_aid",
+        "cpr_aed",
+        "safety_monitoring",
+        "behavioral_health_support",
+        "residential_treatment_operations"
+      ],
+      "notes": [
+        "Keep validation codes and QR imagery in private evidence storage unless an employer specifically requests credential validation."
+      ],
+      "next_needed": []
     },
     {
       "evidence_id": "class_materials_existing",
@@ -819,6 +833,8 @@
         "behavioral_health_support",
         "crisis_intervention",
         "de_escalation",
+        "first_aid",
+        "cpr_aed",
         "regular_med_monitor_assignment",
         "workflow_analysis",
         "carelogic_documentation",
@@ -848,6 +864,8 @@
         "behavioral_health_support",
         "crisis_intervention",
         "de_escalation",
+        "first_aid",
+        "cpr_aed",
         "workflow_analysis",
         "class_material_design",
         "training_material_development",
@@ -1138,9 +1156,9 @@
   "source_checks": [
     {
       "source_id": "tebra_greenhouse",
-      "checked_at": "2026-06-04T13:33:24.386644+00:00",
+      "checked_at": "2026-06-18T10:24:44.148885+00:00",
       "status": "healthy",
-      "live_jobs_found": 26,
+      "live_jobs_found": 21,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1151,12 +1169,10 @@
     },
     {
       "source_id": "curai_lever",
-      "checked_at": "2026-06-04T13:33:24.643113+00:00",
+      "checked_at": "2026-06-18T10:24:44.719837+00:00",
       "status": "healthy",
-      "live_jobs_found": 3,
-      "matched_tracked_titles": [
-        "Clinical Operations Specialist"
-      ],
+      "live_jobs_found": 4,
+      "matched_tracked_titles": [],
       "notes": [
         "Fetched from Lever Postings API."
       ],
@@ -1164,7 +1180,7 @@
     },
     {
       "source_id": "lane_county_governmentjobs",
-      "checked_at": "2026-06-04T13:33:24.644111+00:00",
+      "checked_at": "2026-06-18T10:24:44.721081+00:00",
       "status": "seed_only",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1175,7 +1191,7 @@
     },
     {
       "source_id": "oregon_state_jobs",
-      "checked_at": "2026-06-04T13:33:24.644111+00:00",
+      "checked_at": "2026-06-18T10:24:44.721096+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1186,7 +1202,7 @@
     },
     {
       "source_id": "local_healthcare_employers",
-      "checked_at": "2026-06-04T13:33:24.644111+00:00",
+      "checked_at": "2026-06-18T10:24:44.721102+00:00",
       "status": "planned",
       "live_jobs_found": 0,
       "matched_tracked_titles": [],
@@ -1197,9 +1213,9 @@
     },
     {
       "source_id": "dentalxchange_greenhouse",
-      "checked_at": "2026-06-04T13:33:24.893073+00:00",
+      "checked_at": "2026-06-18T10:24:45.289416+00:00",
       "status": "healthy",
-      "live_jobs_found": 1,
+      "live_jobs_found": 2,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1210,9 +1226,9 @@
     },
     {
       "source_id": "lyrahealth_lever",
-      "checked_at": "2026-06-04T13:33:26.926022+00:00",
+      "checked_at": "2026-06-18T10:24:46.437980+00:00",
       "status": "healthy",
-      "live_jobs_found": 419,
+      "live_jobs_found": 476,
       "matched_tracked_titles": [],
       "notes": [
         "Fetched from Lever Postings API."
@@ -1221,9 +1237,9 @@
     },
     {
       "source_id": "humansignal_greenhouse",
-      "checked_at": "2026-06-04T13:33:27.128146+00:00",
+      "checked_at": "2026-06-18T10:24:46.933076+00:00",
       "status": "healthy",
-      "live_jobs_found": 49,
+      "live_jobs_found": 46,
       "matched_tracked_titles": [],
       "notes": [
         "Fetched from Greenhouse Job Board API."
@@ -1232,9 +1248,9 @@
     },
     {
       "source_id": "agency_greenhouse",
-      "checked_at": "2026-06-04T13:33:27.343207+00:00",
+      "checked_at": "2026-06-18T10:24:47.426559+00:00",
       "status": "healthy",
-      "live_jobs_found": 793,
+      "live_jobs_found": 800,
       "matched_tracked_titles": [
         "English Language Data Contributor (Multimodal) \u2013 Freelance AI Trainer Project"
       ],
@@ -1245,9 +1261,9 @@
     },
     {
       "source_id": "nestveterinary_ashby",
-      "checked_at": "2026-06-04T13:33:27.431694+00:00",
+      "checked_at": "2026-06-18T10:24:48.022808+00:00",
       "status": "healthy",
-      "live_jobs_found": 3,
+      "live_jobs_found": 2,
       "matched_tracked_titles": [
         "Implementation Specialist"
       ],
@@ -1355,14 +1371,15 @@
       ],
       "fit_summary": "Clinical Operations Specialist is a realistic upward bridge role that rewards the documented operations and workflow story.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, nonviolent crisis-intervention training, de-escalation readiness, and safety monitoring. The current evidence base supports a credible story for Clinical Operations Specialist without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 9 documented strengths into a stronger next-step role, not just a lateral move.",
+      "why_me_why_now": "This is worth active attention now because it converts 11 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
             "behavioral_health_support_role",
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1383,7 +1400,22 @@
         {
           "claim_tag": "safety_monitoring",
           "supporting_evidence_ids": [
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "first_aid",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "cpr_aed",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1433,6 +1465,8 @@
         "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
         "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
         "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care.",
+        "First-aid readiness: bring current child, infant, and adult first-aid training to safety-conscious direct-care work.",
+        "CPR/AED readiness: completed HSI CPR/AED certification with hands-on skill objectives.",
         "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
         "Clinical documentation fluency: translate frontline realities into consistent, usable records.",
         "Operational leadership: coordinate people, processes, and follow-through under real constraints."
@@ -1827,14 +1861,15 @@
       ],
       "fit_summary": "Program Services Coordinator 1 is a realistic upward bridge role that rewards the documented operations and workflow story.",
       "tailored_profile_summary": "Healthcare operations candidate with documented strength in frontline behavioral-health operations, nonviolent crisis-intervention training, de-escalation readiness, and safety monitoring. The current evidence base supports a credible story for Program Services Coordinator 1 without leaning on RN reinstatement.",
-      "why_me_why_now": "This is worth active attention now because it converts 10 documented strengths into a stronger next-step role, not just a lateral move.",
+      "why_me_why_now": "This is worth active attention now because it converts 12 documented strengths into a stronger next-step role, not just a lateral move.",
       "suggested_profile_variant": "Bridge Up",
       "supported_claims": [
         {
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
             "behavioral_health_support_role",
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1855,7 +1890,22 @@
         {
           "claim_tag": "safety_monitoring",
           "supporting_evidence_ids": [
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "first_aid",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "cpr_aed",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1913,6 +1963,8 @@
         "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
         "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
         "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care.",
+        "First-aid readiness: bring current child, infant, and adult first-aid training to safety-conscious direct-care work.",
+        "CPR/AED readiness: completed HSI CPR/AED certification with hands-on skill objectives.",
         "Workflow optimization: diagnose recurring friction and turn it into a clearer, more reliable process.",
         "Training support: create clear materials that help other staff teach and adopt process changes.",
         "Operational leadership: coordinate people, processes, and follow-through under real constraints."
@@ -1947,7 +1999,8 @@
           "claim_tag": "behavioral_health_support",
           "supporting_evidence_ids": [
             "behavioral_health_support_role",
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1968,7 +2021,22 @@
         {
           "claim_tag": "safety_monitoring",
           "supporting_evidence_ids": [
-            "nonviolent_crisis_intervention_cpi_blue_card"
+            "nonviolent_crisis_intervention_cpi_blue_card",
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "first_aid",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
+          ],
+          "best_state": "verified"
+        },
+        {
+          "claim_tag": "cpr_aed",
+          "supporting_evidence_ids": [
+            "first_aid_cpr_aed_certificate"
           ],
           "best_state": "verified"
         },
@@ -1989,7 +2057,9 @@
         "Behavioral-health operations: understand the pace, constraints, and documentation needs of residential care.",
         "Crisis-intervention training: completed CPI Nonviolent Crisis Intervention training for safer behavioral-health support.",
         "De-escalation readiness: bring structured nonviolent-crisis-intervention language to direct support work.",
-        "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care."
+        "Safety monitoring: support person-centered safety, welfare, and harm-reduction expectations in residential care.",
+        "First-aid readiness: bring current child, infant, and adult first-aid training to safety-conscious direct-care work.",
+        "CPR/AED readiness: completed HSI CPR/AED certification with hands-on skill objectives."
       ],
       "resume_bullet_suggestions": [
         "Supported behavioral-health residential operations in a high-trust frontline environment.",
